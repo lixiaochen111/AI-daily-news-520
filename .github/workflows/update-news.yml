@@ -36,6 +36,7 @@ jobs:
       - name: Update news data
         env:
           EASYROUTER_API_KEY: ${{ secrets.EASYROUTER_API_KEY }}
+          EASYROUTER_BASE_URL: https://easyrouter.io/v1
         run: |
           export PYTHONPATH="${PYTHONPATH}:$PWD"
           python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml feeds/follow.opml

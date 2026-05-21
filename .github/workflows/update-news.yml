@@ -46,7 +46,7 @@ jobs:
           git config user.name "lixiaochen111"
           git config user.email "lixiaochen0529@gmail.com"
           git add data/*.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update news data" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update news data" && git pull --rebase origin main && git push)
 
   deploy:
     needs: update

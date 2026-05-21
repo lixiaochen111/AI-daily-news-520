@@ -3117,10 +3117,191 @@ def main() -> int:
     latest_items_all.sort(key=lambda x: event_time(x) or datetime.min.replace(tzinfo=UTC), reverse=True)
 
     # Apply AI filtering pipeline (Tier 0/1/2)
-    # Note: Pass ALL items to the filter, let whitelist routing handle classification
+    # IMPORTANT: Only filter NEW items (seen_this_run), not entire archive
+    # This prevents re-processing thousands of old items on every run
+    new_items_to_filter = [item for item in latest_items_all if item["id"] in seen_this_run]
+    already_filtered_items = [item for item in latest_items_all if item["id"] not in seen_this_run]
+
     ai_filter = AIContentFilter()
-    latest_items_before_filter = len(latest_items_all)  # Use raw RSS count
-    latest_items = ai_filter.filter_batch(latest_items_all)  # Pass all items
+    latest_items_before_filter = len(new_items_to_filter)
+    newly_filtered_items = ai_filter.filter_batch(new_items_to_filter) if new_items_to_filter else []
+
+    # Combine newly filtered items with previously filtered items
+    latest_items = newly_filtered_items + already_filtered_items
+    filter_stats = ai_filter.get_statistics(latest_items)
+    filter_stats["items_before_filter"] = latest_items_before_filter
+    filter_stats["items_after_filter"] = len(latest_items)
+    filter_stats["filter_pass_rate"] = (
+        f"{len(latest_items) / latest_items_before_filter * 100:.1f}%"
+        if latest_items_before_filter > 0 else "N/A"
+    )
+
+    # Add AI relevance labels AFTER filtering (for frontend display only, not for filtering)
+    for item in latest_items:
+        add_ai_relevance_fields(item)
+
+    title_cache = load_title_zh_cache(title_cache_path)
+    latest_items, latest_items_all, title_cache = add_bilingual_fields(
+        latest_items,
+        latest_items_all,
+        session,
+        title_cache,
+        max_new_translations=max(0, args.translate_max_new),
+    )
+    latest_items_ai_dedup = dedupe_items_by_title_url(latest_items, random_pick=False)
+    latest_items_all_dedup = dedupe_items_by_title_url(latest_items_all, random_pick=True)
+
+    # site stats
+    site_stat: dict[str, dict[str, Any]] = {}
+    raw_count_by_site: dict[str, int] = {}
+    for record in latest_items_all:
+        sid = record["site_id"]
+        raw_count_by_site[sid] = raw_count_by_site.get(sid, 0) + 1
+
+    site_name_by_id: dict[str, str] = {}
+    for record in latest_items_all:
+        site_name_by_id[record["site_id"]] = record["site_name"]
+    for s in statuses:
+        sid = s["site_id"]
+        if sid not in site_name_by_id:
+            site_name_by_id[sid] = s.get("site_name") or sid
+
+    for record in latest_items_ai_dedup:
+        sid = record["site_id"]
+        if sid not in site_stat:
+            site_stat[sid] = {
+                "site_id": sid,
+                "site_name": record["site_name"],
+                "count": 0,
+                "raw_count": raw_count_by_site.get(sid, 0),
+            }
+        site_stat[sid]["count"] += 1
+
+    for sid, site_name in site_name_by_id.items():
+        if sid in site_stat:
+            continue
+        site_stat[sid] = {
+            "site_id": sid,
+            "site_name": site_name,
+            "count": 0,
+            "raw_count": raw_count_by_site.get(sid, 0),
+        }
+
+    latest_payload = {
+        "generated_at": iso(now),
+        "window_hours": args.window_hours,
+        "total_items": len(latest_items_ai_dedup),
+        "total_items_ai_raw": len(latest_items),
+        "total_items_raw": len(latest_items_all),
+        "total_items_all_mode": len(latest_items_all_dedup),
+        "topic_filter": "ai_relevance_scoring_v0_4",
+        "ai_relevance_threshold": 0.65,
+        "ai_filter_stats": filter_stats,
+        "archive_total": len(archive),
+        "site_count": len(site_stat),
+        "source_count": len({f"{i['site_id']}::{i['source']}" for i in latest_items_ai_dedup}),
+        "site_stats": sorted(site_stat.values(), key=lambda x: x["count"], reverse=True),
+        "items": latest_items_ai_dedup,
+        "items_ai": latest_items_ai_dedup,
+        "items_all_raw": latest_items_all,
+        "items_all": latest_items_all_dedup,
+    }
+
+    archive_payload = {
+        "generated_at": iso(now),
+        "total_items": len(archive),
+        "items": sorted(
+            archive.values(),
+            key=lambda x: parse_iso(x.get("last_seen_at")) or datetime.min.replace(tzinfo=UTC),
+            reverse=True,
+        ),
+    }
+
+    status_payload = {
+        "generated_at": iso(now),
+        "sites": statuses,
+        "successful_sites": sum(1 for s in statuses if s["ok"]),
+        "failed_sites": [s["site_id"] for s in statuses if not s["ok"]],
+        "zero_item_sites": [s["site_id"] for s in statuses if s.get("ok") and int(s.get("item_count") or 0) == 0],
+        "fetched_raw_items": len(raw_items),
+        "items_before_topic_filter": len(latest_items_all),
+        "items_in_24h": len(latest_items_ai_dedup),
+        "rss_opml": {
+            "enabled": bool(args.rss_opml),
+            "path": "configured" if args.rss_opml else None,
+            "feed_total": len(rss_feed_statuses),
+            "effective_feed_total": sum(1 for s in rss_feed_statuses if not s.get("skipped")),
+            "ok_feeds": sum(1 for s in rss_feed_statuses if s["ok"] and not s.get("skipped")),
+            "failed_feeds": [s.get("effective_feed_url") or s["feed_url"] for s in rss_feed_statuses if not s["ok"]],
+            "zero_item_feeds": [
+                s.get("effective_feed_url") or s["feed_url"]
+                for s in rss_feed_statuses
+                if s["ok"] and not s.get("skipped") and int(s.get("item_count") or 0) == 0
+            ],
+            "skipped_feeds": [
+                {"feed_url": s["feed_url"], "reason": s.get("skip_reason")}
+                for s in rss_feed_statuses
+                if s.get("skipped")
+            ],
+            "replaced_feeds": [
+                {"from": s["feed_url"], "to": s.get("effective_feed_url")}
+                for s in rss_feed_statuses
+                if s.get("replaced") and s.get("effective_feed_url")
+            ],
+            "feeds": rss_feed_statuses,
+        },
+        "agentmail": agentmail_status,
+        "x_api": x_api_status,
+    }
+
+    try:
+        waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
+    except Exception as exc:
+        waytoagi_payload = {
+            "generated_at": iso(now),
+            "timezone": "Asia/Shanghai",
+            "root_url": WAYTOAGI_DEFAULT,
+            "history_url": None,
+            "window_days": 7,
+            "count_7d": 0,
+            "updates_7d": [],
+            "warning": "WaytoAGI 近7日更新抓取失败",
+            "has_error": True,
+            "error": str(exc),
+        }
+
+    latest_payload, latest_all_payload = build_latest_payloads(latest_payload)
+
+    latest_path.write_text(json.dumps(sanitize_public_payload(latest_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    latest_all_path.write_text(json.dumps(sanitize_public_payload(latest_all_payload), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    archive_path.write_text(
+        json.dumps(sanitize_public_payload(archive_payload), ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    status_path.write_text(json.dumps(sanitize_public_payload(status_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    if email_digest_payload is not None:
+        email_digest_path.write_text(
+            json.dumps(sanitize_public_payload(email_digest_payload), ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+    waytoagi_path.write_text(json.dumps(sanitize_public_payload(waytoagi_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    title_cache_path.write_text(json.dumps(sanitize_public_payload(title_cache), ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"Wrote: {latest_path} ({len(latest_items)} items)")
+    print(f"Wrote: {latest_all_path} ({len(latest_items_all_dedup)} all-mode items)")
+    print(f"Wrote: {archive_path} ({len(archive)} items)")
+    print(f"Wrote: {status_path}")
+    if email_digest_payload is not None:
+        print(f"Wrote: {email_digest_path} ({email_digest_payload.get('total_messages', 0)} email items)")
+    print(f"Wrote: {waytoagi_path} ({waytoagi_payload.get('count_7d', 0)} items)")
+    print(f"Wrote: {title_cache_path} ({len(title_cache)} entries)")
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
     filter_stats = ai_filter.get_statistics(latest_items)
     filter_stats["items_before_filter"] = latest_items_before_filter
     filter_stats["items_after_filter"] = len(latest_items)

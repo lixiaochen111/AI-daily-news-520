@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-05-21T17:08:23.014660Z",
+  "generated_at": "2026-05-22T03:50:58.840843Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 5261,
-  "total_items_all_mode": 4898,
+  "total_items": 4,
+  "total_items_ai_raw": 4,
+  "total_items_raw": 5024,
+  "total_items_all_mode": 4677,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
+    "total": 4,
     "tier_0": 0,
-    "tier_1": 0,
-    "tier_2": 0,
+    "tier_1": 3,
+    "tier_2": 1,
     "blacklisted": 0,
-    "items_before_filter": 152,
-    "items_after_filter": 0,
-    "filter_pass_rate": "0.0%"
+    "items_before_filter": 1660,
+    "items_after_filter": 4,
+    "filter_pass_rate": "0.2%"
   },
-  "archive_total": 11199,
+  "archive_total": 13002,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 3,
   "site_stats": [
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 32
-    },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 2545
+      "count": 2,
+      "raw_count": 2535
     },
     {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 702
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 1,
+      "raw_count": 1151
     },
     {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 12
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 1,
+      "raw_count": 404
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 145
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 1274
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 77
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 403
+      "raw_count": 124
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 46
+      "raw_count": 55
+    },
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 634
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 71
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 33
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 6
+      "raw_count": 4
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 11
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 19
+      "raw_count": 2
     },
     {
       "site_id": "aibreakfast",
@@ -106,7 +106,343 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "url": "https://www.uisdc.com/ai-design-flow-3",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "uisdc",
+        "name": "优设网",
+        "patterns": [
+          "uisdc.com",
+          "优设网"
+        ],
+        "reason": "设计师学习平台，内容多，需AI筛选高质量",
+        "update_frequency": "daily",
+        "expected_items_per_day": 2,
+        "language": "zh",
+        "ai_filter_focus": [
+          "AI设计教程",
+          "工具实测",
+          "设计案例"
+        ],
+        "max_items_per_day": 3
+      },
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI设计工具",
+        "Figma技巧",
+        "UI设计效率"
+      ],
+      "ai_target_audience": "UI/UX设计师、产品设计师等希望通过AI优化设计流程的创意工作者",
+      "ai_key_insights": "通过巧用GPT生成结构化提示或代码片段，再导入Figma转化为可视化界面，弥补AI无法直接渲染UI的短板，形成半自动化的设计工作流。",
+      "ai_recommendation": "详拆GPT+Figma实用工作流，直击AI直出UI痛点，设计师必学的效率秘籍。",
+      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_en": null,
+      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
+    },
+    {
+      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "url": "https://www.uisdc.com/master-ai-skills",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "uisdc",
+        "name": "优设网",
+        "patterns": [
+          "uisdc.com",
+          "优设网"
+        ],
+        "reason": "设计师学习平台，内容多，需AI筛选高质量",
+        "update_frequency": "daily",
+        "expected_items_per_day": 2,
+        "language": "zh",
+        "ai_filter_focus": [
+          "AI设计教程",
+          "工具实测",
+          "设计案例"
+        ],
+        "max_items_per_day": 3
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "交互设计",
+        "AI与设计工具"
+      ],
+      "ai_target_audience": "希望开发或优化对话式UI的UX/UI设计师、AI产品经理及前端开发者",
+      "ai_key_insights": "以技能(Skill)开发为切入点，系统拆解从意图设计到多轮对话的完整流程，通过实战案例降低设计师对AI交互逻辑的理解门槛。",
+      "ai_recommendation": "将抽象的AI对话设计转化为可复用的技能构建方法，适合想拓宽交互边界的设计师上手实践。",
+      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_en": null,
+      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
+    },
+    {
+      "id": "5657b219b8aa9f94cdc71bbbf1eeaedd20304fcb",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theguardian.com",
+      "title": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "url": "https://www.theguardian.com/technology/2026/may/21/spotify-and-universal-music-agree-deal-to-let-subscribers-create-ai-remixes",
+      "published_at": "2026-05-21T20:36:05.134000Z",
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI与产品设计",
+        "音乐流媒体用户体验",
+        "创作者工具"
+      ],
+      "ai_target_audience": "UI/UX设计师，产品经理，音乐与科技交叉领域的研究者，关注AI伦理与用户体验的从业者",
+      "ai_key_insights": "Spotify与环球音乐合作将AI混音功能直接集成至平台，标志着大型流媒体首次将生成式AI作为面向普通用户的创作工具，对音乐消费体验从被动聆听转向主动参与产生深远影响，同时也引发版权、创作者权益与UI可控性等设计挑战。",
+      "ai_recommendation": "首个主流流媒体将AI混音权开放给用户，对体验设计师理解AI融合消费场景具有前瞻参考价值。",
+      "title_original": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "title_en": null,
+      "title_zh": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "title_bilingual": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品"
+    },
+    {
+      "id": "be0bfe4c68b2ce47ee1aebf7cbadd93cb1bff098",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "How Elon Musk will increase his power through the SpaceX IPO",
+      "url": "https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo",
+      "published_at": "2026-05-21T19:35:21Z",
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.1,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Technology Business",
+        "Space Industry",
+        "IPO Analysis"
+      ],
+      "ai_target_audience": "Tech investors, business strategists, and space industry analysts interested in the intersection of corporate governance and political influence.",
+      "ai_key_insights": "The article explores how a SpaceX IPO could consolidate Elon Musk’s financial leverage, voting control, and access to capital markets, thereby amplifying his geopolitical influence and enabling larger-scale initiatives like Starlink and Mars colonization beyond the constraints of a private company.",
+      "ai_recommendation": "本文深度剖析SpaceX上市对马斯克个人权力扩张的潜在路径，适合关注科技商业与资本权力互动的读者。",
+      "title_original": "How Elon Musk will increase his power through the SpaceX IPO",
+      "title_en": "How Elon Musk will increase his power through the SpaceX IPO",
+      "title_zh": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力",
+      "title_bilingual": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力 / How Elon Musk will increase his power through the SpaceX IPO"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "url": "https://www.uisdc.com/ai-design-flow-3",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "uisdc",
+        "name": "优设网",
+        "patterns": [
+          "uisdc.com",
+          "优设网"
+        ],
+        "reason": "设计师学习平台，内容多，需AI筛选高质量",
+        "update_frequency": "daily",
+        "expected_items_per_day": 2,
+        "language": "zh",
+        "ai_filter_focus": [
+          "AI设计教程",
+          "工具实测",
+          "设计案例"
+        ],
+        "max_items_per_day": 3
+      },
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI设计工具",
+        "Figma技巧",
+        "UI设计效率"
+      ],
+      "ai_target_audience": "UI/UX设计师、产品设计师等希望通过AI优化设计流程的创意工作者",
+      "ai_key_insights": "通过巧用GPT生成结构化提示或代码片段，再导入Figma转化为可视化界面，弥补AI无法直接渲染UI的短板，形成半自动化的设计工作流。",
+      "ai_recommendation": "详拆GPT+Figma实用工作流，直击AI直出UI痛点，设计师必学的效率秘籍。",
+      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_en": null,
+      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
+    },
+    {
+      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "url": "https://www.uisdc.com/master-ai-skills",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "uisdc",
+        "name": "优设网",
+        "patterns": [
+          "uisdc.com",
+          "优设网"
+        ],
+        "reason": "设计师学习平台，内容多，需AI筛选高质量",
+        "update_frequency": "daily",
+        "expected_items_per_day": 2,
+        "language": "zh",
+        "ai_filter_focus": [
+          "AI设计教程",
+          "工具实测",
+          "设计案例"
+        ],
+        "max_items_per_day": 3
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "交互设计",
+        "AI与设计工具"
+      ],
+      "ai_target_audience": "希望开发或优化对话式UI的UX/UI设计师、AI产品经理及前端开发者",
+      "ai_key_insights": "以技能(Skill)开发为切入点，系统拆解从意图设计到多轮对话的完整流程，通过实战案例降低设计师对AI交互逻辑的理解门槛。",
+      "ai_recommendation": "将抽象的AI对话设计转化为可复用的技能构建方法，适合想拓宽交互边界的设计师上手实践。",
+      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_en": null,
+      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
+    },
+    {
+      "id": "5657b219b8aa9f94cdc71bbbf1eeaedd20304fcb",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theguardian.com",
+      "title": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "url": "https://www.theguardian.com/technology/2026/may/21/spotify-and-universal-music-agree-deal-to-let-subscribers-create-ai-remixes",
+      "published_at": "2026-05-21T20:36:05.134000Z",
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI与产品设计",
+        "音乐流媒体用户体验",
+        "创作者工具"
+      ],
+      "ai_target_audience": "UI/UX设计师，产品经理，音乐与科技交叉领域的研究者，关注AI伦理与用户体验的从业者",
+      "ai_key_insights": "Spotify与环球音乐合作将AI混音功能直接集成至平台，标志着大型流媒体首次将生成式AI作为面向普通用户的创作工具，对音乐消费体验从被动聆听转向主动参与产生深远影响，同时也引发版权、创作者权益与UI可控性等设计挑战。",
+      "ai_recommendation": "首个主流流媒体将AI混音权开放给用户，对体验设计师理解AI融合消费场景具有前瞻参考价值。",
+      "title_original": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "title_en": null,
+      "title_zh": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "title_bilingual": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品"
+    },
+    {
+      "id": "be0bfe4c68b2ce47ee1aebf7cbadd93cb1bff098",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "How Elon Musk will increase his power through the SpaceX IPO",
+      "url": "https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo",
+      "published_at": "2026-05-21T19:35:21Z",
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.1,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Technology Business",
+        "Space Industry",
+        "IPO Analysis"
+      ],
+      "ai_target_audience": "Tech investors, business strategists, and space industry analysts interested in the intersection of corporate governance and political influence.",
+      "ai_key_insights": "The article explores how a SpaceX IPO could consolidate Elon Musk’s financial leverage, voting control, and access to capital markets, thereby amplifying his geopolitical influence and enabling larger-scale initiatives like Starlink and Mars colonization beyond the constraints of a private company.",
+      "ai_recommendation": "本文深度剖析SpaceX上市对马斯克个人权力扩张的潜在路径，适合关注科技商业与资本权力互动的读者。",
+      "title_original": "How Elon Musk will increase his power through the SpaceX IPO",
+      "title_en": "How Elon Musk will increase his power through the SpaceX IPO",
+      "title_zh": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力",
+      "title_bilingual": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力 / How Elon Musk will increase his power through the SpaceX IPO"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }

@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-05-22T03:50:58.840843Z",
+  "generated_at": "2026-05-23T03:26:38.776674Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_ai_raw": 4,
-  "total_items_raw": 5024,
-  "total_items_all_mode": 4677,
+  "total_items": 10,
+  "total_items_ai_raw": 10,
+  "total_items_raw": 3353,
+  "total_items_all_mode": 3112,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 4,
+    "total": 10,
     "tier_0": 0,
-    "tier_1": 3,
+    "tier_1": 9,
     "tier_2": 1,
     "blacklisted": 0,
-    "items_before_filter": 1660,
-    "items_after_filter": 4,
-    "filter_pass_rate": "0.2%"
+    "items_before_filter": 2273,
+    "items_after_filter": 10,
+    "filter_pass_rate": "0.4%"
   },
-  "archive_total": 13002,
+  "archive_total": 15529,
   "site_count": 14,
-  "source_count": 3,
+  "source_count": 6,
   "site_stats": [
     {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 2,
-      "raw_count": 2535
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 6,
+      "raw_count": 218
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
-      "count": 1,
-      "raw_count": 1151
+      "count": 2,
+      "raw_count": 586
     },
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 1,
-      "raw_count": 404
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "count": 2,
+      "raw_count": 1972
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 124
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 55
+      "raw_count": 101
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 634
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 71
+      "raw_count": 310
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 33
+      "raw_count": 37
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 73
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 4
+      "raw_count": 5
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 11
+      "raw_count": 5
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 40
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 2
+      "raw_count": 6
     },
     {
       "site_id": "aibreakfast",
@@ -108,132 +108,93 @@
   ],
   "items": [
     {
-      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "url": "https://www.uisdc.com/ai-design-flow-3",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI设计工具",
-        "Figma技巧",
-        "UI设计效率"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品设计师等希望通过AI优化设计流程的创意工作者",
-      "ai_key_insights": "通过巧用GPT生成结构化提示或代码片段，再导入Figma转化为可视化界面，弥补AI无法直接渲染UI的短板，形成半自动化的设计工作流。",
-      "ai_recommendation": "详拆GPT+Figma实用工作流，直击AI直出UI痛点，设计师必学的效率秘籍。",
-      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "title_en": null,
-      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
-    },
-    {
-      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "url": "https://www.uisdc.com/master-ai-skills",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "交互设计",
-        "AI与设计工具"
-      ],
-      "ai_target_audience": "希望开发或优化对话式UI的UX/UI设计师、AI产品经理及前端开发者",
-      "ai_key_insights": "以技能(Skill)开发为切入点，系统拆解从意图设计到多轮对话的完整流程，通过实战案例降低设计师对AI交互逻辑的理解门槛。",
-      "ai_recommendation": "将抽象的AI对话设计转化为可复用的技能构建方法，适合想拓宽交互边界的设计师上手实践。",
-      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "title_en": null,
-      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
-    },
-    {
-      "id": "5657b219b8aa9f94cdc71bbbf1eeaedd20304fcb",
+      "id": "2a5f120892d34c7f185d061e3c9e0344a39d86c7",
       "site_id": "buzzing",
       "site_name": "Buzzing",
-      "source": "www.theguardian.com",
-      "title": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
-      "url": "https://www.theguardian.com/technology/2026/may/21/spotify-and-universal-music-agree-deal-to-let-subscribers-create-ai-remixes",
-      "published_at": "2026-05-21T20:36:05.134000Z",
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "source": "dev.to",
+      "title": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
+      "url": "https://dev.to/devteam/how-were-using-gemini-embeddings-to-build-a-smarter-community-driven-feed-on-dev-1b9f",
+      "published_at": "2026-05-22T20:19:06.766000Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
       "_tier": 2,
       "ai_tier": 2,
       "_source_config": {},
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
+      "ai_design_relevance": 0.6,
+      "ai_quality_score": 8,
       "ai_categories": [
-        "AI与产品设计",
-        "音乐流媒体用户体验",
-        "创作者工具"
+        "人工智能",
+        "推荐系统",
+        "社区产品设计"
       ],
-      "ai_target_audience": "UI/UX设计师，产品经理，音乐与科技交叉领域的研究者，关注AI伦理与用户体验的从业者",
-      "ai_key_insights": "Spotify与环球音乐合作将AI混音功能直接集成至平台，标志着大型流媒体首次将生成式AI作为面向普通用户的创作工具，对音乐消费体验从被动聆听转向主动参与产生深远影响，同时也引发版权、创作者权益与UI可控性等设计挑战。",
-      "ai_recommendation": "首个主流流媒体将AI混音权开放给用户，对体验设计师理解AI融合消费场景具有前瞻参考价值。",
-      "title_original": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "ai_target_audience": "关注算法驱动体验的产品设计师、技术型产品经理、前端/全栈工程师",
+      "ai_key_insights": "文章深入展示了开发者社区如何利用文本嵌入技术理解内容语义，构建动态个性化信息流，平衡用户兴趣与社区多样性，实现‘社区驱动’而非纯算法黑盒的智能推荐。",
+      "ai_recommendation": "从技术落地视角揭示语义推荐对社区信息架构的重塑，为设计智能内容体验提供可复用的工程思路。",
+      "title_original": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
       "title_en": null,
-      "title_zh": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
-      "title_bilingual": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品"
+      "title_zh": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
+      "title_bilingual": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流"
     },
     {
-      "id": "be0bfe4c68b2ce47ee1aebf7cbadd93cb1bff098",
+      "id": "2f9adcfbdd6d4c1819cbd3a4a642eb3b69adc802",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theverge.com",
+      "title": "微软开始取消Claude Code许可证",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "published_at": "2026-05-22T20:19:06.409000Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.3,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "科技新闻",
+        "AI工具政策",
+        "开发者工具"
+      ],
+      "ai_target_audience": "关注企业AI工具策略的开发者和技术决策者",
+      "ai_key_insights": "微软出于自身Copilot推广或安全合规考虑开始限制内部对Claude Code的许可，反映大厂在AI编程助手上的竞争与管控策略。",
+      "ai_recommendation": "透过微软的许可变动，窥见大厂AI工具内部博弈，为设计团队选型提供现实参考。",
+      "title_original": "微软开始取消Claude Code许可证",
+      "title_en": null,
+      "title_zh": "微软开始取消Claude Code许可证",
+      "title_bilingual": "微软开始取消Claude Code许可证"
+    },
+    {
+      "id": "e534f442a91bac5220ace6864dfe3acf1d5dfe3a",
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechCrunch",
-      "title": "How Elon Musk will increase his power through the SpaceX IPO",
-      "url": "https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo",
-      "published_at": "2026-05-21T19:35:21Z",
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "title": "Spotify’s AI bet: more of everything, less of what you want",
+      "url": "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want",
+      "published_at": "2026-05-22T16:18:10Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -259,150 +220,395 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.1,
+      "ai_design_relevance": 0.8,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Technology Business",
-        "Space Industry",
-        "IPO Analysis"
+        "AI & Personalization",
+        "UX Design",
+        "Product Strategy",
+        "Streaming Services"
       ],
-      "ai_target_audience": "Tech investors, business strategists, and space industry analysts interested in the intersection of corporate governance and political influence.",
-      "ai_key_insights": "The article explores how a SpaceX IPO could consolidate Elon Musk’s financial leverage, voting control, and access to capital markets, thereby amplifying his geopolitical influence and enabling larger-scale initiatives like Starlink and Mars colonization beyond the constraints of a private company.",
-      "ai_recommendation": "本文深度剖析SpaceX上市对马斯克个人权力扩张的潜在路径，适合关注科技商业与资本权力互动的读者。",
-      "title_original": "How Elon Musk will increase his power through the SpaceX IPO",
-      "title_en": "How Elon Musk will increase his power through the SpaceX IPO",
-      "title_zh": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力",
-      "title_bilingual": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力 / How Elon Musk will increase his power through the SpaceX IPO"
+      "ai_target_audience": "UI/UX designers, product managers, and tech professionals interested in the tension between AI-driven personalization and genuine user needs.",
+      "ai_key_insights": "The article critiques Spotify's aggressive AI push, arguing that flooding users with more content and features often overwhelms rather than meets genuine desires, highlighting a critical gap between algorithmic abundance and thoughtful curation.",
+      "ai_recommendation": "该文深刻揭示了AI过度扩张可能损害用户体验的本质，警示设计师在追求功能丰富时勿忘人本设计初心，值得反思。",
+      "title_original": "Spotify’s AI bet: more of everything, less of what you want",
+      "title_en": "Spotify’s AI bet: more of everything, less of what you want",
+      "title_zh": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的",
+      "title_bilingual": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的 / Spotify’s AI bet: more of everything, less of what you want"
+    },
+    {
+      "id": "5fba814d56a7ac2a0829f43ce769fda8a2b67f49",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "We tried Google’s AI glasses and they’re almost there",
+      "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there",
+      "published_at": "2026-05-22T15:37:15Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AR/VR",
+        "Wearable Technology",
+        "AI Interfaces"
+      ],
+      "ai_target_audience": "UI/UX designers, product managers, and tech enthusiasts exploring the intersection of AI, wearables, and ambient computing.",
+      "ai_key_insights": "Hands-on review reveals Google's AI glasses are functionally promising but still limited by battery life, field of view, and real-world context handling; the multimodal assistant demonstrates how AI could reshape wearable UX with voice, vision, and minimal UI.",
+      "ai_recommendation": "Google 眼镜演示了 AI 可穿戴近在咫尺的未来，虽未完美，却为交互设计师提供了多模态、低打扰界面的实操参考。",
+      "title_original": "We tried Google’s AI glasses and they’re almost there",
+      "title_en": "We tried Google’s AI glasses and they’re almost there",
+      "title_zh": "我们尝试了谷歌的人工智能眼镜，它们就快到了",
+      "title_bilingual": "我们尝试了谷歌的人工智能眼镜，它们就快到了 / We tried Google’s AI glasses and they’re almost there"
+    },
+    {
+      "id": "b2a5af2c7ba1dd0946a30bf9d26e38d329e44bed",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "The literary world isn’t prepared for AI",
+      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
+      "published_at": "2026-05-22T14:30:00Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.3,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI",
+        "Literature",
+        "Technology & Society"
+      ],
+      "ai_target_audience": "Tech enthusiasts, writers, publishers, and cultural observers interested in AI's impact on creative industries.",
+      "ai_key_insights": "The article explores how AI-generated literature challenges traditional notions of authorship, copyright, and artistic value, revealing a literary world unprepared for the speed and scale of AI’s disruption. It highlights real-world examples and expert concerns, emphasizing the need for new frameworks.",
+      "ai_recommendation": "虽然与UI/UX直接关联较弱，但揭示了AI对内容创作的深层冲击，为设计师理解未来阅读体验与媒介伦理提供重要背景。",
+      "title_original": "The literary world isn’t prepared for AI",
+      "title_en": "The literary world isn’t prepared for AI",
+      "title_zh": "文学界还没有为人工智能做好准备",
+      "title_bilingual": "文学界还没有为人工智能做好准备 / The literary world isn’t prepared for AI"
+    },
+    {
+      "id": "5a5ca516ee8e1bbd96981c75e27ffdf9155a3b89",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "The post-search Google era begins",
+      "url": "https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
+      "published_at": "2026-05-22T13:47:41Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "人工智能",
+        "搜索引擎",
+        "交互设计",
+        "用户体验趋势"
+      ],
+      "ai_target_audience": "关注人机交互、信息架构和产品策略的UX/UI设计师、产品经理及技术决策者",
+      "ai_key_insights": "谷歌搜索的链接列表范式正被AI生成的直接答案颠覆，用户界面将从‘10个蓝色链接’转向对话式、摘要化的信息获取方式，这重塑了获取信息的信任机制、流量分配和网站设计目的，迫使设计师重新思考从展示到对话的体验流程。",
+      "ai_recommendation": "本文深入揭示了生成式AI对搜索体验的底层重构，为设计师提供了从信息架构到交互模式的转型蓝图，极具前瞻性与实践启发。",
+      "title_original": "The post-search Google era begins",
+      "title_en": "The post-search Google era begins",
+      "title_zh": "后搜索谷歌时代开始",
+      "title_bilingual": "后搜索谷歌时代开始 / The post-search Google era begins"
+    },
+    {
+      "id": "41ca517ee20b796358e89d925c3a4dee704bf26c",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "If I could only have one laptop for work and gaming, I’d get this one",
+      "url": "https://www.theverge.com/tech/935898/asus-rog-zephyrus-g14-2026-intel-nvidia-review",
+      "published_at": "2026-05-22T13:00:00Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "Tech Review",
+        "Laptop Recommendation",
+        "Productivity",
+        "Gaming"
+      ],
+      "ai_target_audience": "Professionals and enthusiasts who need a single laptop for both demanding creative work (like UI/UX design) and high-performance gaming.",
+      "ai_key_insights": "The article identifies a laptop that successfully balances color-accurate displays, powerful GPUs, and portable form factors, making it viable for design workflows and gaming without compromise. It provides practical performance comparisons and real-world usability insights for hybrid work-play scenarios.",
+      "ai_recommendation": "这篇文章为需要在工作与游戏间高效切换的设计师推荐了最佳全能本，兼顾色彩准确性、图形性能与便携性。",
+      "title_original": "If I could only have one laptop for work and gaming, I’d get this one",
+      "title_en": "If I could only have one laptop for work and gaming, I’d get this one",
+      "title_zh": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台",
+      "title_bilingual": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台 / If I could only have one laptop for work and gaming, I’d get this one"
+    },
+    {
+      "id": "81d73f932c733612c758ec0ea38d879b41d5fd10",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+      "url": "https://www.wired.com/story/story/all-measuring-devices-run-on-two-stone-age-techniques",
+      "published_at": "2026-05-22T11:00:00Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.5,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Design Philosophy",
+        "Science & Technology"
+      ],
+      "ai_target_audience": "Curious designers, technologists, and science enthusiasts interested in the origins of measurement and foundational thinking.",
+      "ai_key_insights": "Even the most advanced scientific instruments are rooted in two primitive measurement techniques, illustrating how fundamental principles remain the bedrock of innovation.",
+      "ai_recommendation": "这篇文章提醒我们复杂系统往往源于简单原理，适合设计师思考如何从基础模式构建优雅的交互体验。",
+      "title_original": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+      "title_en": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+      "title_zh": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术",
+      "title_bilingual": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术 / All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques"
+    },
+    {
+      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "url": "https://www.uisdc.com/ai-design-flow-3",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "ai_filtered": true,
+      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_en": null,
+      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
+    },
+    {
+      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "url": "https://www.uisdc.com/master-ai-skills",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "ai_filtered": true,
+      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_en": null,
+      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
     }
   ],
   "items_ai": [
     {
-      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "url": "https://www.uisdc.com/ai-design-flow-3",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI设计工具",
-        "Figma技巧",
-        "UI设计效率"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品设计师等希望通过AI优化设计流程的创意工作者",
-      "ai_key_insights": "通过巧用GPT生成结构化提示或代码片段，再导入Figma转化为可视化界面，弥补AI无法直接渲染UI的短板，形成半自动化的设计工作流。",
-      "ai_recommendation": "详拆GPT+Figma实用工作流，直击AI直出UI痛点，设计师必学的效率秘籍。",
-      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "title_en": null,
-      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
-    },
-    {
-      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "url": "https://www.uisdc.com/master-ai-skills",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "交互设计",
-        "AI与设计工具"
-      ],
-      "ai_target_audience": "希望开发或优化对话式UI的UX/UI设计师、AI产品经理及前端开发者",
-      "ai_key_insights": "以技能(Skill)开发为切入点，系统拆解从意图设计到多轮对话的完整流程，通过实战案例降低设计师对AI交互逻辑的理解门槛。",
-      "ai_recommendation": "将抽象的AI对话设计转化为可复用的技能构建方法，适合想拓宽交互边界的设计师上手实践。",
-      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "title_en": null,
-      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
-    },
-    {
-      "id": "5657b219b8aa9f94cdc71bbbf1eeaedd20304fcb",
+      "id": "2a5f120892d34c7f185d061e3c9e0344a39d86c7",
       "site_id": "buzzing",
       "site_name": "Buzzing",
-      "source": "www.theguardian.com",
-      "title": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
-      "url": "https://www.theguardian.com/technology/2026/may/21/spotify-and-universal-music-agree-deal-to-let-subscribers-create-ai-remixes",
-      "published_at": "2026-05-21T20:36:05.134000Z",
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "source": "dev.to",
+      "title": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
+      "url": "https://dev.to/devteam/how-were-using-gemini-embeddings-to-build-a-smarter-community-driven-feed-on-dev-1b9f",
+      "published_at": "2026-05-22T20:19:06.766000Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
       "_tier": 2,
       "ai_tier": 2,
       "_source_config": {},
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
+      "ai_design_relevance": 0.6,
+      "ai_quality_score": 8,
       "ai_categories": [
-        "AI与产品设计",
-        "音乐流媒体用户体验",
-        "创作者工具"
+        "人工智能",
+        "推荐系统",
+        "社区产品设计"
       ],
-      "ai_target_audience": "UI/UX设计师，产品经理，音乐与科技交叉领域的研究者，关注AI伦理与用户体验的从业者",
-      "ai_key_insights": "Spotify与环球音乐合作将AI混音功能直接集成至平台，标志着大型流媒体首次将生成式AI作为面向普通用户的创作工具，对音乐消费体验从被动聆听转向主动参与产生深远影响，同时也引发版权、创作者权益与UI可控性等设计挑战。",
-      "ai_recommendation": "首个主流流媒体将AI混音权开放给用户，对体验设计师理解AI融合消费场景具有前瞻参考价值。",
-      "title_original": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
+      "ai_target_audience": "关注算法驱动体验的产品设计师、技术型产品经理、前端/全栈工程师",
+      "ai_key_insights": "文章深入展示了开发者社区如何利用文本嵌入技术理解内容语义，构建动态个性化信息流，平衡用户兴趣与社区多样性，实现‘社区驱动’而非纯算法黑盒的智能推荐。",
+      "ai_recommendation": "从技术落地视角揭示语义推荐对社区信息架构的重塑，为设计智能内容体验提供可复用的工程思路。",
+      "title_original": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
       "title_en": null,
-      "title_zh": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品",
-      "title_bilingual": "Spotify 与环球音乐达成协议，允许订阅用户制作 AI 混音作品"
+      "title_zh": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
+      "title_bilingual": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流"
     },
     {
-      "id": "be0bfe4c68b2ce47ee1aebf7cbadd93cb1bff098",
+      "id": "2f9adcfbdd6d4c1819cbd3a4a642eb3b69adc802",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theverge.com",
+      "title": "微软开始取消Claude Code许可证",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "published_at": "2026-05-22T20:19:06.409000Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.3,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "科技新闻",
+        "AI工具政策",
+        "开发者工具"
+      ],
+      "ai_target_audience": "关注企业AI工具策略的开发者和技术决策者",
+      "ai_key_insights": "微软出于自身Copilot推广或安全合规考虑开始限制内部对Claude Code的许可，反映大厂在AI编程助手上的竞争与管控策略。",
+      "ai_recommendation": "透过微软的许可变动，窥见大厂AI工具内部博弈，为设计团队选型提供现实参考。",
+      "title_original": "微软开始取消Claude Code许可证",
+      "title_en": null,
+      "title_zh": "微软开始取消Claude Code许可证",
+      "title_bilingual": "微软开始取消Claude Code许可证"
+    },
+    {
+      "id": "e534f442a91bac5220ace6864dfe3acf1d5dfe3a",
       "site_id": "techurls",
       "site_name": "TechURLs",
       "source": "TechCrunch",
-      "title": "How Elon Musk will increase his power through the SpaceX IPO",
-      "url": "https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo",
-      "published_at": "2026-05-21T19:35:21Z",
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-22T03:50:58.840843Z",
+      "title": "Spotify’s AI bet: more of everything, less of what you want",
+      "url": "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want",
+      "published_at": "2026-05-22T16:18:10Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -428,20 +634,304 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.1,
+      "ai_design_relevance": 0.8,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Technology Business",
-        "Space Industry",
-        "IPO Analysis"
+        "AI & Personalization",
+        "UX Design",
+        "Product Strategy",
+        "Streaming Services"
       ],
-      "ai_target_audience": "Tech investors, business strategists, and space industry analysts interested in the intersection of corporate governance and political influence.",
-      "ai_key_insights": "The article explores how a SpaceX IPO could consolidate Elon Musk’s financial leverage, voting control, and access to capital markets, thereby amplifying his geopolitical influence and enabling larger-scale initiatives like Starlink and Mars colonization beyond the constraints of a private company.",
-      "ai_recommendation": "本文深度剖析SpaceX上市对马斯克个人权力扩张的潜在路径，适合关注科技商业与资本权力互动的读者。",
-      "title_original": "How Elon Musk will increase his power through the SpaceX IPO",
-      "title_en": "How Elon Musk will increase his power through the SpaceX IPO",
-      "title_zh": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力",
-      "title_bilingual": "埃隆·马斯克将如何通过 SpaceX IPO 增强自己的权力 / How Elon Musk will increase his power through the SpaceX IPO"
+      "ai_target_audience": "UI/UX designers, product managers, and tech professionals interested in the tension between AI-driven personalization and genuine user needs.",
+      "ai_key_insights": "The article critiques Spotify's aggressive AI push, arguing that flooding users with more content and features often overwhelms rather than meets genuine desires, highlighting a critical gap between algorithmic abundance and thoughtful curation.",
+      "ai_recommendation": "该文深刻揭示了AI过度扩张可能损害用户体验的本质，警示设计师在追求功能丰富时勿忘人本设计初心，值得反思。",
+      "title_original": "Spotify’s AI bet: more of everything, less of what you want",
+      "title_en": "Spotify’s AI bet: more of everything, less of what you want",
+      "title_zh": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的",
+      "title_bilingual": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的 / Spotify’s AI bet: more of everything, less of what you want"
+    },
+    {
+      "id": "5fba814d56a7ac2a0829f43ce769fda8a2b67f49",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "We tried Google’s AI glasses and they’re almost there",
+      "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there",
+      "published_at": "2026-05-22T15:37:15Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AR/VR",
+        "Wearable Technology",
+        "AI Interfaces"
+      ],
+      "ai_target_audience": "UI/UX designers, product managers, and tech enthusiasts exploring the intersection of AI, wearables, and ambient computing.",
+      "ai_key_insights": "Hands-on review reveals Google's AI glasses are functionally promising but still limited by battery life, field of view, and real-world context handling; the multimodal assistant demonstrates how AI could reshape wearable UX with voice, vision, and minimal UI.",
+      "ai_recommendation": "Google 眼镜演示了 AI 可穿戴近在咫尺的未来，虽未完美，却为交互设计师提供了多模态、低打扰界面的实操参考。",
+      "title_original": "We tried Google’s AI glasses and they’re almost there",
+      "title_en": "We tried Google’s AI glasses and they’re almost there",
+      "title_zh": "我们尝试了谷歌的人工智能眼镜，它们就快到了",
+      "title_bilingual": "我们尝试了谷歌的人工智能眼镜，它们就快到了 / We tried Google’s AI glasses and they’re almost there"
+    },
+    {
+      "id": "b2a5af2c7ba1dd0946a30bf9d26e38d329e44bed",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "The literary world isn’t prepared for AI",
+      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
+      "published_at": "2026-05-22T14:30:00Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.3,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI",
+        "Literature",
+        "Technology & Society"
+      ],
+      "ai_target_audience": "Tech enthusiasts, writers, publishers, and cultural observers interested in AI's impact on creative industries.",
+      "ai_key_insights": "The article explores how AI-generated literature challenges traditional notions of authorship, copyright, and artistic value, revealing a literary world unprepared for the speed and scale of AI’s disruption. It highlights real-world examples and expert concerns, emphasizing the need for new frameworks.",
+      "ai_recommendation": "虽然与UI/UX直接关联较弱，但揭示了AI对内容创作的深层冲击，为设计师理解未来阅读体验与媒介伦理提供重要背景。",
+      "title_original": "The literary world isn’t prepared for AI",
+      "title_en": "The literary world isn’t prepared for AI",
+      "title_zh": "文学界还没有为人工智能做好准备",
+      "title_bilingual": "文学界还没有为人工智能做好准备 / The literary world isn’t prepared for AI"
+    },
+    {
+      "id": "5a5ca516ee8e1bbd96981c75e27ffdf9155a3b89",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "The post-search Google era begins",
+      "url": "https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
+      "published_at": "2026-05-22T13:47:41Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "人工智能",
+        "搜索引擎",
+        "交互设计",
+        "用户体验趋势"
+      ],
+      "ai_target_audience": "关注人机交互、信息架构和产品策略的UX/UI设计师、产品经理及技术决策者",
+      "ai_key_insights": "谷歌搜索的链接列表范式正被AI生成的直接答案颠覆，用户界面将从‘10个蓝色链接’转向对话式、摘要化的信息获取方式，这重塑了获取信息的信任机制、流量分配和网站设计目的，迫使设计师重新思考从展示到对话的体验流程。",
+      "ai_recommendation": "本文深入揭示了生成式AI对搜索体验的底层重构，为设计师提供了从信息架构到交互模式的转型蓝图，极具前瞻性与实践启发。",
+      "title_original": "The post-search Google era begins",
+      "title_en": "The post-search Google era begins",
+      "title_zh": "后搜索谷歌时代开始",
+      "title_bilingual": "后搜索谷歌时代开始 / The post-search Google era begins"
+    },
+    {
+      "id": "41ca517ee20b796358e89d925c3a4dee704bf26c",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "If I could only have one laptop for work and gaming, I’d get this one",
+      "url": "https://www.theverge.com/tech/935898/asus-rog-zephyrus-g14-2026-intel-nvidia-review",
+      "published_at": "2026-05-22T13:00:00Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "Tech Review",
+        "Laptop Recommendation",
+        "Productivity",
+        "Gaming"
+      ],
+      "ai_target_audience": "Professionals and enthusiasts who need a single laptop for both demanding creative work (like UI/UX design) and high-performance gaming.",
+      "ai_key_insights": "The article identifies a laptop that successfully balances color-accurate displays, powerful GPUs, and portable form factors, making it viable for design workflows and gaming without compromise. It provides practical performance comparisons and real-world usability insights for hybrid work-play scenarios.",
+      "ai_recommendation": "这篇文章为需要在工作与游戏间高效切换的设计师推荐了最佳全能本，兼顾色彩准确性、图形性能与便携性。",
+      "title_original": "If I could only have one laptop for work and gaming, I’d get this one",
+      "title_en": "If I could only have one laptop for work and gaming, I’d get this one",
+      "title_zh": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台",
+      "title_bilingual": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台 / If I could only have one laptop for work and gaming, I’d get this one"
+    },
+    {
+      "id": "81d73f932c733612c758ec0ea38d879b41d5fd10",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+      "url": "https://www.wired.com/story/story/all-measuring-devices-run-on-two-stone-age-techniques",
+      "published_at": "2026-05-22T11:00:00Z",
+      "first_seen_at": "2026-05-23T03:26:38.776674Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.5,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Design Philosophy",
+        "Science & Technology"
+      ],
+      "ai_target_audience": "Curious designers, technologists, and science enthusiasts interested in the origins of measurement and foundational thinking.",
+      "ai_key_insights": "Even the most advanced scientific instruments are rooted in two primitive measurement techniques, illustrating how fundamental principles remain the bedrock of innovation.",
+      "ai_recommendation": "这篇文章提醒我们复杂系统往往源于简单原理，适合设计师思考如何从基础模式构建优雅的交互体验。",
+      "title_original": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+      "title_en": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+      "title_zh": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术",
+      "title_bilingual": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术 / All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques"
+    },
+    {
+      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "url": "https://www.uisdc.com/ai-design-flow-3",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "ai_filtered": true,
+      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_en": null,
+      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
+    },
+    {
+      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "url": "https://www.uisdc.com/master-ai-skills",
+      "published_at": null,
+      "first_seen_at": "2026-05-22T03:50:58.840843Z",
+      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "ai_filtered": true,
+      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_en": null,
+      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"

@@ -1,91 +1,85 @@
 {
-  "generated_at": "2026-05-23T03:26:38.776674Z",
+  "generated_at": "2026-05-24T03:46:24.881510Z",
   "window_hours": 24,
-  "total_items": 10,
-  "total_items_ai_raw": 10,
-  "total_items_raw": 3353,
-  "total_items_all_mode": 3112,
+  "total_items": 6,
+  "total_items_ai_raw": 6,
+  "total_items_raw": 2054,
+  "total_items_all_mode": 1958,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 10,
+    "total": 6,
     "tier_0": 0,
-    "tier_1": 9,
-    "tier_2": 1,
+    "tier_1": 3,
+    "tier_2": 3,
     "blacklisted": 0,
-    "items_before_filter": 2273,
-    "items_after_filter": 10,
-    "filter_pass_rate": "0.4%"
+    "items_before_filter": 1956,
+    "items_after_filter": 6,
+    "filter_pass_rate": "0.3%"
   },
-  "archive_total": 15529,
+  "archive_total": 17639,
   "site_count": 14,
   "source_count": 6,
   "site_stats": [
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 6,
-      "raw_count": 218
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "count": 2,
+      "raw_count": 1017
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 2,
-      "raw_count": 586
+      "raw_count": 488
     },
     {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 2,
-      "raw_count": 1972
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 1,
+      "raw_count": 258
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 1,
+      "raw_count": 157
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 101
-    },
-    {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 310
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 37
+      "raw_count": 69
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 73
+      "raw_count": 54
     },
     {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
+      "site_id": "aihot",
+      "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 6
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 5
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 40
+      "raw_count": 1
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 6
+      "raw_count": 4
+    },
+    {
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 0,
+      "raw_count": 0
     },
     {
       "site_id": "aibreakfast",
@@ -104,350 +98,81 @@
       "site_name": "AI HubToday",
       "count": 0,
       "raw_count": 0
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 0
     }
   ],
   "items": [
     {
-      "id": "2a5f120892d34c7f185d061e3c9e0344a39d86c7",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "dev.to",
-      "title": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
-      "url": "https://dev.to/devteam/how-were-using-gemini-embeddings-to-build-a-smarter-community-driven-feed-on-dev-1b9f",
-      "published_at": "2026-05-22T20:19:06.766000Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "id": "423419de698e0a28b92bd32e1e667e149ebfd1bf",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "知乎 · 热榜",
+      "title": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
+      "url": "https://www.zhihu.com/question/2040070496926922044",
+      "published_at": null,
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
       "_tier": 2,
       "ai_tier": 2,
       "_source_config": {},
-      "ai_design_relevance": 0.6,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "人工智能",
-        "推荐系统",
-        "社区产品设计"
-      ],
-      "ai_target_audience": "关注算法驱动体验的产品设计师、技术型产品经理、前端/全栈工程师",
-      "ai_key_insights": "文章深入展示了开发者社区如何利用文本嵌入技术理解内容语义，构建动态个性化信息流，平衡用户兴趣与社区多样性，实现‘社区驱动’而非纯算法黑盒的智能推荐。",
-      "ai_recommendation": "从技术落地视角揭示语义推荐对社区信息架构的重塑，为设计智能内容体验提供可复用的工程思路。",
-      "title_original": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
-      "title_en": null,
-      "title_zh": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
-      "title_bilingual": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流"
-    },
-    {
-      "id": "2f9adcfbdd6d4c1819cbd3a4a642eb3b69adc802",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.theverge.com",
-      "title": "微软开始取消Claude Code许可证",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "published_at": "2026-05-22T20:19:06.409000Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.3,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "科技新闻",
-        "AI工具政策",
-        "开发者工具"
-      ],
-      "ai_target_audience": "关注企业AI工具策略的开发者和技术决策者",
-      "ai_key_insights": "微软出于自身Copilot推广或安全合规考虑开始限制内部对Claude Code的许可，反映大厂在AI编程助手上的竞争与管控策略。",
-      "ai_recommendation": "透过微软的许可变动，窥见大厂AI工具内部博弈，为设计团队选型提供现实参考。",
-      "title_original": "微软开始取消Claude Code许可证",
-      "title_en": null,
-      "title_zh": "微软开始取消Claude Code许可证",
-      "title_bilingual": "微软开始取消Claude Code许可证"
-    },
-    {
-      "id": "e534f442a91bac5220ace6864dfe3acf1d5dfe3a",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Spotify’s AI bet: more of everything, less of what you want",
-      "url": "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want",
-      "published_at": "2026-05-22T16:18:10Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
       "ai_design_relevance": 0.8,
       "ai_quality_score": 7,
       "ai_categories": [
-        "AI & Personalization",
-        "UX Design",
-        "Product Strategy",
-        "Streaming Services"
+        "交互设计",
+        "AI 产品设计",
+        "阅读用户体验"
       ],
-      "ai_target_audience": "UI/UX designers, product managers, and tech professionals interested in the tension between AI-driven personalization and genuine user needs.",
-      "ai_key_insights": "The article critiques Spotify's aggressive AI push, arguing that flooding users with more content and features often overwhelms rather than meets genuine desires, highlighting a critical gap between algorithmic abundance and thoughtful curation.",
-      "ai_recommendation": "该文深刻揭示了AI过度扩张可能损害用户体验的本质，警示设计师在追求功能丰富时勿忘人本设计初心，值得反思。",
-      "title_original": "Spotify’s AI bet: more of everything, less of what you want",
-      "title_en": "Spotify’s AI bet: more of everything, less of what you want",
-      "title_zh": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的",
-      "title_bilingual": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的 / Spotify’s AI bet: more of everything, less of what you want"
+      "ai_target_audience": "关注AI功能落地的UX/UI设计师、产品经理，及对阅读类产品创新感兴趣的设计研究人员",
+      "ai_key_insights": "微信读书AI Skill将生成式AI融入阅读流，重塑了从被动接收到主动问答的交互模式，可能引发阅读习惯从线性向探索式转变，同时带来界面信息架构与反馈设计的新挑战。",
+      "ai_recommendation": "深度剖析AI如何重塑阅读交互，为设计师提供前沿的交互范式与体验反思，极具启发性。",
+      "title_original": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
+      "title_en": null,
+      "title_zh": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
+      "title_bilingual": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？"
     },
     {
-      "id": "5fba814d56a7ac2a0829f43ce769fda8a2b67f49",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "We tried Google’s AI glasses and they’re almost there",
-      "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there",
-      "published_at": "2026-05-22T15:37:15Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "AR/VR",
-        "Wearable Technology",
-        "AI Interfaces"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, and tech enthusiasts exploring the intersection of AI, wearables, and ambient computing.",
-      "ai_key_insights": "Hands-on review reveals Google's AI glasses are functionally promising but still limited by battery life, field of view, and real-world context handling; the multimodal assistant demonstrates how AI could reshape wearable UX with voice, vision, and minimal UI.",
-      "ai_recommendation": "Google 眼镜演示了 AI 可穿戴近在咫尺的未来，虽未完美，却为交互设计师提供了多模态、低打扰界面的实操参考。",
-      "title_original": "We tried Google’s AI glasses and they’re almost there",
-      "title_en": "We tried Google’s AI glasses and they’re almost there",
-      "title_zh": "我们尝试了谷歌的人工智能眼镜，它们就快到了",
-      "title_bilingual": "我们尝试了谷歌的人工智能眼镜，它们就快到了 / We tried Google’s AI glasses and they’re almost there"
-    },
-    {
-      "id": "b2a5af2c7ba1dd0946a30bf9d26e38d329e44bed",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "title": "The literary world isn’t prepared for AI",
-      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
-      "published_at": "2026-05-22T14:30:00Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.3,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "AI",
-        "Literature",
-        "Technology & Society"
-      ],
-      "ai_target_audience": "Tech enthusiasts, writers, publishers, and cultural observers interested in AI's impact on creative industries.",
-      "ai_key_insights": "The article explores how AI-generated literature challenges traditional notions of authorship, copyright, and artistic value, revealing a literary world unprepared for the speed and scale of AI’s disruption. It highlights real-world examples and expert concerns, emphasizing the need for new frameworks.",
-      "ai_recommendation": "虽然与UI/UX直接关联较弱，但揭示了AI对内容创作的深层冲击，为设计师理解未来阅读体验与媒介伦理提供重要背景。",
-      "title_original": "The literary world isn’t prepared for AI",
-      "title_en": "The literary world isn’t prepared for AI",
-      "title_zh": "文学界还没有为人工智能做好准备",
-      "title_bilingual": "文学界还没有为人工智能做好准备 / The literary world isn’t prepared for AI"
-    },
-    {
-      "id": "5a5ca516ee8e1bbd96981c75e27ffdf9155a3b89",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "title": "The post-search Google era begins",
-      "url": "https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
-      "published_at": "2026-05-22T13:47:41Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
+      "id": "085cdae7de7eb988f04f71349fb485f4c2d351d2",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "人人都是产品经理 · 日榜",
+      "title": "AI用户体验要素二：那些无法忽略的UI交互行为",
+      "url": "https://www.woshipm.com/?p=6400006",
+      "published_at": null,
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
       "ai_design_relevance": 0.9,
       "ai_quality_score": 8,
       "ai_categories": [
-        "人工智能",
-        "搜索引擎",
-        "交互设计",
-        "用户体验趋势"
+        "AI交互设计",
+        "用户体验要素",
+        "UI行为模式"
       ],
-      "ai_target_audience": "关注人机交互、信息架构和产品策略的UX/UI设计师、产品经理及技术决策者",
-      "ai_key_insights": "谷歌搜索的链接列表范式正被AI生成的直接答案颠覆，用户界面将从‘10个蓝色链接’转向对话式、摘要化的信息获取方式，这重塑了获取信息的信任机制、流量分配和网站设计目的，迫使设计师重新思考从展示到对话的体验流程。",
-      "ai_recommendation": "本文深入揭示了生成式AI对搜索体验的底层重构，为设计师提供了从信息架构到交互模式的转型蓝图，极具前瞻性与实践启发。",
-      "title_original": "The post-search Google era begins",
-      "title_en": "The post-search Google era begins",
-      "title_zh": "后搜索谷歌时代开始",
-      "title_bilingual": "后搜索谷歌时代开始 / The post-search Google era begins"
+      "ai_target_audience": "对AI产品设计有兴趣的UI/UX设计师及产品经理",
+      "ai_key_insights": "探讨了AI应用中不可忽视的UI交互细节，如动态反馈、渐进式展示、智能缺省和容错设计等，结合实例说明如何通过界面行为提升感知智能和可用性。",
+      "ai_recommendation": "将AI能力转化为直观UI行为，是设计师必读的交互落地指南。",
+      "title_original": "AI用户体验要素二：那些无法忽略的UI交互行为",
+      "title_en": null,
+      "title_zh": "AI用户体验要素二：那些无法忽略的UI交互行为",
+      "title_bilingual": "AI用户体验要素二：那些无法忽略的UI交互行为"
     },
     {
-      "id": "41ca517ee20b796358e89d925c3a4dee704bf26c",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "title": "If I could only have one laptop for work and gaming, I’d get this one",
-      "url": "https://www.theverge.com/tech/935898/asus-rog-zephyrus-g14-2026-intel-nvidia-review",
-      "published_at": "2026-05-22T13:00:00Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "Tech Review",
-        "Laptop Recommendation",
-        "Productivity",
-        "Gaming"
-      ],
-      "ai_target_audience": "Professionals and enthusiasts who need a single laptop for both demanding creative work (like UI/UX design) and high-performance gaming.",
-      "ai_key_insights": "The article identifies a laptop that successfully balances color-accurate displays, powerful GPUs, and portable form factors, making it viable for design workflows and gaming without compromise. It provides practical performance comparisons and real-world usability insights for hybrid work-play scenarios.",
-      "ai_recommendation": "这篇文章为需要在工作与游戏间高效切换的设计师推荐了最佳全能本，兼顾色彩准确性、图形性能与便携性。",
-      "title_original": "If I could only have one laptop for work and gaming, I’d get this one",
-      "title_en": "If I could only have one laptop for work and gaming, I’d get this one",
-      "title_zh": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台",
-      "title_bilingual": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台 / If I could only have one laptop for work and gaming, I’d get this one"
-    },
-    {
-      "id": "81d73f932c733612c758ec0ea38d879b41d5fd10",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
-      "url": "https://www.wired.com/story/story/all-measuring-devices-run-on-two-stone-age-techniques",
-      "published_at": "2026-05-22T11:00:00Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "id": "59c9099f0f91e80ef3413af2f037d8b8bbb97c7c",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.google.com",
+      "title": "Shein收购Everlane其实完全合乎情理 - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UNGlnS1l4bzdfWXNEVFFfYWQ5NWU4WEhvbk1qSjJjT1JWajJtRG9zeC0yWnlrRFFvNVlJMHlzN1JPdVFjTmJvbV9Jb3ZBN0taQjFtdDVSSV8xVDN1Tkl2alZycGRwTWZRWDN4WHdqTjhMdDJaTDJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "published_at": "2026-05-24T02:57:47.781000Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -473,395 +198,216 @@
         ],
         "max_items_per_day": 20
       },
-      "ai_design_relevance": 0.5,
+      "ai_design_relevance": 0.3,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Design Philosophy",
-        "Science & Technology"
+        "商业分析",
+        "时尚产业",
+        "科技趋势"
       ],
-      "ai_target_audience": "Curious designers, technologists, and science enthusiasts interested in the origins of measurement and foundational thinking.",
-      "ai_key_insights": "Even the most advanced scientific instruments are rooted in two primitive measurement techniques, illustrating how fundamental principles remain the bedrock of innovation.",
-      "ai_recommendation": "这篇文章提醒我们复杂系统往往源于简单原理，适合设计师思考如何从基础模式构建优雅的交互体验。",
-      "title_original": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
-      "title_en": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
-      "title_zh": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术",
-      "title_bilingual": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术 / All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques"
+      "ai_target_audience": "关注时尚零售、企业战略与可持续商业模式的专业人士与投资分析师",
+      "ai_key_insights": "文章从商业模式整合角度分析Shein收购Everlane的合理性，探讨快时尚与可持续品牌的互补逻辑及市场信号",
+      "ai_recommendation": "推荐阅读以理解全球时尚品牌战略背后的逻辑，对设计师思考商业与体验的平衡有启发意义",
+      "title_original": "Shein收购Everlane其实完全合乎情理 - WIRED",
+      "title_en": null,
+      "title_zh": "Shein收购Everlane其实完全合乎情理 - WIRED",
+      "title_bilingual": "Shein收购Everlane其实完全合乎情理 - WIRED"
     },
     {
-      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "url": "https://www.uisdc.com/ai-design-flow-3",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "ai_filtered": true,
-      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "id": "d32665d642d935b69b1b0a0ff5693682d835c1b1",
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "IT之家 (ITHome)",
+      "title": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
+      "url": "https://www.ithome.com/0/954/457.htm",
+      "published_at": "2026-05-23T22:40:54Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI设计工具",
+        "科技动态"
+      ],
+      "ai_target_audience": "UI/UX设计师、产品经理、苹果生态开发者及关注AI工具融合的创意从业者",
+      "ai_key_insights": "苹果正式启用 ‘genai.apple.com’ 子域名，或在 WWDC 2026 上推出面向开发者和设计师的生成式 AI 平台，预示 AI 深度嵌入苹果设计工具与生态的可能性。",
+      "ai_recommendation": "苹果AI平台子域名预示设计工具跃迁，设计师需提前关注新工作流的可能性。",
+      "title_original": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
       "title_en": null,
-      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
+      "title_zh": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
+      "title_bilingual": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com"
     },
     {
-      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "url": "https://www.uisdc.com/master-ai-skills",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "ai_filtered": true,
-      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "id": "c23b2d193e9a81bb90c337bbc72483f88a596f4b",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.wired.com",
+      "title": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
+      "url": "https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access",
+      "published_at": "2026-05-23T17:38:06.234000Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "隐私与监控",
+        "科技政策",
+        "数据安全"
+      ],
+      "ai_target_audience": "关心数字隐私、政府监控和公民自由的技术爱好者、政策研究者及法律从业者",
+      "ai_key_insights": "FBI 试图近乎实时地接入全美自动车牌识别系统，此举引发对无差别大规模监控和隐私边界的强烈忧虑。",
+      "ai_recommendation": "从监控实践警示设计伦理，适合思考隐私界面的设计师阅读。",
+      "title_original": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
       "title_en": null,
-      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
+      "title_zh": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
+      "title_bilingual": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限"
+    },
+    {
+      "id": "338329137c15de203ef6b2825e1a62fb644fd1a9",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "Elon Musk has given up on solar power (on Earth)",
+      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth",
+      "published_at": "2026-05-23T13:00:00Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Technology",
+        "Sustainability",
+        "Business"
+      ],
+      "ai_target_audience": "Tech enthusiasts, investors, energy industry professionals, and followers of Elon Musk’s ventures.",
+      "ai_key_insights": "Musk has pivoted away from terrestrial solar energy, likely focusing instead on more scalable or efficient energy solutions, reflecting broader strategic shifts in Tesla’s energy business and his personal priorities.",
+      "ai_recommendation": "文章揭示了马斯克能源战略的转向，对设计师而言，这暗示未来可持续产品设计可能需关注新的能源接口与用户场景。",
+      "title_original": "Elon Musk has given up on solar power (on Earth)",
+      "title_en": "Elon Musk has given up on solar power (on Earth)",
+      "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
+      "title_bilingual": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能 / Elon Musk has given up on solar power (on Earth)"
     }
   ],
   "items_ai": [
     {
-      "id": "2a5f120892d34c7f185d061e3c9e0344a39d86c7",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "dev.to",
-      "title": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
-      "url": "https://dev.to/devteam/how-were-using-gemini-embeddings-to-build-a-smarter-community-driven-feed-on-dev-1b9f",
-      "published_at": "2026-05-22T20:19:06.766000Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "id": "423419de698e0a28b92bd32e1e667e149ebfd1bf",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "知乎 · 热榜",
+      "title": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
+      "url": "https://www.zhihu.com/question/2040070496926922044",
+      "published_at": null,
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
       "_tier": 2,
       "ai_tier": 2,
       "_source_config": {},
-      "ai_design_relevance": 0.6,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "人工智能",
-        "推荐系统",
-        "社区产品设计"
-      ],
-      "ai_target_audience": "关注算法驱动体验的产品设计师、技术型产品经理、前端/全栈工程师",
-      "ai_key_insights": "文章深入展示了开发者社区如何利用文本嵌入技术理解内容语义，构建动态个性化信息流，平衡用户兴趣与社区多样性，实现‘社区驱动’而非纯算法黑盒的智能推荐。",
-      "ai_recommendation": "从技术落地视角揭示语义推荐对社区信息架构的重塑，为设计智能内容体验提供可复用的工程思路。",
-      "title_original": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
-      "title_en": null,
-      "title_zh": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流",
-      "title_bilingual": "我们如何利用 Gemini Embeddings 在 DEV 上构建一个更智能、由社区驱动的信息流"
-    },
-    {
-      "id": "2f9adcfbdd6d4c1819cbd3a4a642eb3b69adc802",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.theverge.com",
-      "title": "微软开始取消Claude Code许可证",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "published_at": "2026-05-22T20:19:06.409000Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.3,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "科技新闻",
-        "AI工具政策",
-        "开发者工具"
-      ],
-      "ai_target_audience": "关注企业AI工具策略的开发者和技术决策者",
-      "ai_key_insights": "微软出于自身Copilot推广或安全合规考虑开始限制内部对Claude Code的许可，反映大厂在AI编程助手上的竞争与管控策略。",
-      "ai_recommendation": "透过微软的许可变动，窥见大厂AI工具内部博弈，为设计团队选型提供现实参考。",
-      "title_original": "微软开始取消Claude Code许可证",
-      "title_en": null,
-      "title_zh": "微软开始取消Claude Code许可证",
-      "title_bilingual": "微软开始取消Claude Code许可证"
-    },
-    {
-      "id": "e534f442a91bac5220ace6864dfe3acf1d5dfe3a",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Spotify’s AI bet: more of everything, less of what you want",
-      "url": "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want",
-      "published_at": "2026-05-22T16:18:10Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
       "ai_design_relevance": 0.8,
       "ai_quality_score": 7,
       "ai_categories": [
-        "AI & Personalization",
-        "UX Design",
-        "Product Strategy",
-        "Streaming Services"
+        "交互设计",
+        "AI 产品设计",
+        "阅读用户体验"
       ],
-      "ai_target_audience": "UI/UX designers, product managers, and tech professionals interested in the tension between AI-driven personalization and genuine user needs.",
-      "ai_key_insights": "The article critiques Spotify's aggressive AI push, arguing that flooding users with more content and features often overwhelms rather than meets genuine desires, highlighting a critical gap between algorithmic abundance and thoughtful curation.",
-      "ai_recommendation": "该文深刻揭示了AI过度扩张可能损害用户体验的本质，警示设计师在追求功能丰富时勿忘人本设计初心，值得反思。",
-      "title_original": "Spotify’s AI bet: more of everything, less of what you want",
-      "title_en": "Spotify’s AI bet: more of everything, less of what you want",
-      "title_zh": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的",
-      "title_bilingual": "Spotify 的人工智能赌注：更多的是一切，更少的是你想要的 / Spotify’s AI bet: more of everything, less of what you want"
+      "ai_target_audience": "关注AI功能落地的UX/UI设计师、产品经理，及对阅读类产品创新感兴趣的设计研究人员",
+      "ai_key_insights": "微信读书AI Skill将生成式AI融入阅读流，重塑了从被动接收到主动问答的交互模式，可能引发阅读习惯从线性向探索式转变，同时带来界面信息架构与反馈设计的新挑战。",
+      "ai_recommendation": "深度剖析AI如何重塑阅读交互，为设计师提供前沿的交互范式与体验反思，极具启发性。",
+      "title_original": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
+      "title_en": null,
+      "title_zh": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
+      "title_bilingual": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？"
     },
     {
-      "id": "5fba814d56a7ac2a0829f43ce769fda8a2b67f49",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "We tried Google’s AI glasses and they’re almost there",
-      "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there",
-      "published_at": "2026-05-22T15:37:15Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "AR/VR",
-        "Wearable Technology",
-        "AI Interfaces"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, and tech enthusiasts exploring the intersection of AI, wearables, and ambient computing.",
-      "ai_key_insights": "Hands-on review reveals Google's AI glasses are functionally promising but still limited by battery life, field of view, and real-world context handling; the multimodal assistant demonstrates how AI could reshape wearable UX with voice, vision, and minimal UI.",
-      "ai_recommendation": "Google 眼镜演示了 AI 可穿戴近在咫尺的未来，虽未完美，却为交互设计师提供了多模态、低打扰界面的实操参考。",
-      "title_original": "We tried Google’s AI glasses and they’re almost there",
-      "title_en": "We tried Google’s AI glasses and they’re almost there",
-      "title_zh": "我们尝试了谷歌的人工智能眼镜，它们就快到了",
-      "title_bilingual": "我们尝试了谷歌的人工智能眼镜，它们就快到了 / We tried Google’s AI glasses and they’re almost there"
-    },
-    {
-      "id": "b2a5af2c7ba1dd0946a30bf9d26e38d329e44bed",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "title": "The literary world isn’t prepared for AI",
-      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
-      "published_at": "2026-05-22T14:30:00Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.3,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "AI",
-        "Literature",
-        "Technology & Society"
-      ],
-      "ai_target_audience": "Tech enthusiasts, writers, publishers, and cultural observers interested in AI's impact on creative industries.",
-      "ai_key_insights": "The article explores how AI-generated literature challenges traditional notions of authorship, copyright, and artistic value, revealing a literary world unprepared for the speed and scale of AI’s disruption. It highlights real-world examples and expert concerns, emphasizing the need for new frameworks.",
-      "ai_recommendation": "虽然与UI/UX直接关联较弱，但揭示了AI对内容创作的深层冲击，为设计师理解未来阅读体验与媒介伦理提供重要背景。",
-      "title_original": "The literary world isn’t prepared for AI",
-      "title_en": "The literary world isn’t prepared for AI",
-      "title_zh": "文学界还没有为人工智能做好准备",
-      "title_bilingual": "文学界还没有为人工智能做好准备 / The literary world isn’t prepared for AI"
-    },
-    {
-      "id": "5a5ca516ee8e1bbd96981c75e27ffdf9155a3b89",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "title": "The post-search Google era begins",
-      "url": "https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
-      "published_at": "2026-05-22T13:47:41Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
+      "id": "085cdae7de7eb988f04f71349fb485f4c2d351d2",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "人人都是产品经理 · 日榜",
+      "title": "AI用户体验要素二：那些无法忽略的UI交互行为",
+      "url": "https://www.woshipm.com/?p=6400006",
+      "published_at": null,
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
       "ai_design_relevance": 0.9,
       "ai_quality_score": 8,
       "ai_categories": [
-        "人工智能",
-        "搜索引擎",
-        "交互设计",
-        "用户体验趋势"
+        "AI交互设计",
+        "用户体验要素",
+        "UI行为模式"
       ],
-      "ai_target_audience": "关注人机交互、信息架构和产品策略的UX/UI设计师、产品经理及技术决策者",
-      "ai_key_insights": "谷歌搜索的链接列表范式正被AI生成的直接答案颠覆，用户界面将从‘10个蓝色链接’转向对话式、摘要化的信息获取方式，这重塑了获取信息的信任机制、流量分配和网站设计目的，迫使设计师重新思考从展示到对话的体验流程。",
-      "ai_recommendation": "本文深入揭示了生成式AI对搜索体验的底层重构，为设计师提供了从信息架构到交互模式的转型蓝图，极具前瞻性与实践启发。",
-      "title_original": "The post-search Google era begins",
-      "title_en": "The post-search Google era begins",
-      "title_zh": "后搜索谷歌时代开始",
-      "title_bilingual": "后搜索谷歌时代开始 / The post-search Google era begins"
+      "ai_target_audience": "对AI产品设计有兴趣的UI/UX设计师及产品经理",
+      "ai_key_insights": "探讨了AI应用中不可忽视的UI交互细节，如动态反馈、渐进式展示、智能缺省和容错设计等，结合实例说明如何通过界面行为提升感知智能和可用性。",
+      "ai_recommendation": "将AI能力转化为直观UI行为，是设计师必读的交互落地指南。",
+      "title_original": "AI用户体验要素二：那些无法忽略的UI交互行为",
+      "title_en": null,
+      "title_zh": "AI用户体验要素二：那些无法忽略的UI交互行为",
+      "title_bilingual": "AI用户体验要素二：那些无法忽略的UI交互行为"
     },
     {
-      "id": "41ca517ee20b796358e89d925c3a4dee704bf26c",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "The Verge",
-      "title": "If I could only have one laptop for work and gaming, I’d get this one",
-      "url": "https://www.theverge.com/tech/935898/asus-rog-zephyrus-g14-2026-intel-nvidia-review",
-      "published_at": "2026-05-22T13:00:00Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "Tech Review",
-        "Laptop Recommendation",
-        "Productivity",
-        "Gaming"
-      ],
-      "ai_target_audience": "Professionals and enthusiasts who need a single laptop for both demanding creative work (like UI/UX design) and high-performance gaming.",
-      "ai_key_insights": "The article identifies a laptop that successfully balances color-accurate displays, powerful GPUs, and portable form factors, making it viable for design workflows and gaming without compromise. It provides practical performance comparisons and real-world usability insights for hybrid work-play scenarios.",
-      "ai_recommendation": "这篇文章为需要在工作与游戏间高效切换的设计师推荐了最佳全能本，兼顾色彩准确性、图形性能与便携性。",
-      "title_original": "If I could only have one laptop for work and gaming, I’d get this one",
-      "title_en": "If I could only have one laptop for work and gaming, I’d get this one",
-      "title_zh": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台",
-      "title_bilingual": "如果我只能拥有一台笔记本电脑用于工作和游戏，我会买这一台 / If I could only have one laptop for work and gaming, I’d get this one"
-    },
-    {
-      "id": "81d73f932c733612c758ec0ea38d879b41d5fd10",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
-      "url": "https://www.wired.com/story/story/all-measuring-devices-run-on-two-stone-age-techniques",
-      "published_at": "2026-05-22T11:00:00Z",
-      "first_seen_at": "2026-05-23T03:26:38.776674Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
+      "id": "59c9099f0f91e80ef3413af2f037d8b8bbb97c7c",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.google.com",
+      "title": "Shein收购Everlane其实完全合乎情理 - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UNGlnS1l4bzdfWXNEVFFfYWQ5NWU4WEhvbk1qSjJjT1JWajJtRG9zeC0yWnlrRFFvNVlJMHlzN1JPdVFjTmJvbV9Jb3ZBN0taQjFtdDVSSV8xVDN1Tkl2alZycGRwTWZRWDN4WHdqTjhMdDJaTDJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "published_at": "2026-05-24T02:57:47.781000Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -887,51 +433,147 @@
         ],
         "max_items_per_day": 20
       },
-      "ai_design_relevance": 0.5,
+      "ai_design_relevance": 0.3,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Design Philosophy",
-        "Science & Technology"
+        "商业分析",
+        "时尚产业",
+        "科技趋势"
       ],
-      "ai_target_audience": "Curious designers, technologists, and science enthusiasts interested in the origins of measurement and foundational thinking.",
-      "ai_key_insights": "Even the most advanced scientific instruments are rooted in two primitive measurement techniques, illustrating how fundamental principles remain the bedrock of innovation.",
-      "ai_recommendation": "这篇文章提醒我们复杂系统往往源于简单原理，适合设计师思考如何从基础模式构建优雅的交互体验。",
-      "title_original": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
-      "title_en": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
-      "title_zh": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术",
-      "title_bilingual": "科学中使用的所有奇特测量设备都依赖于两种石器时代的技术 / All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques"
+      "ai_target_audience": "关注时尚零售、企业战略与可持续商业模式的专业人士与投资分析师",
+      "ai_key_insights": "文章从商业模式整合角度分析Shein收购Everlane的合理性，探讨快时尚与可持续品牌的互补逻辑及市场信号",
+      "ai_recommendation": "推荐阅读以理解全球时尚品牌战略背后的逻辑，对设计师思考商业与体验的平衡有启发意义",
+      "title_original": "Shein收购Everlane其实完全合乎情理 - WIRED",
+      "title_en": null,
+      "title_zh": "Shein收购Everlane其实完全合乎情理 - WIRED",
+      "title_bilingual": "Shein收购Everlane其实完全合乎情理 - WIRED"
     },
     {
-      "id": "a3558d26b7f5e80425ff69bfd4319d3df3176fe6",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "url": "https://www.uisdc.com/ai-design-flow-3",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "ai_filtered": true,
-      "title_original": "AI没法直出UI？GPT+Figma这样搭才管用！",
+      "id": "d32665d642d935b69b1b0a0ff5693682d835c1b1",
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "IT之家 (ITHome)",
+      "title": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
+      "url": "https://www.ithome.com/0/954/457.htm",
+      "published_at": "2026-05-23T22:40:54Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI设计工具",
+        "科技动态"
+      ],
+      "ai_target_audience": "UI/UX设计师、产品经理、苹果生态开发者及关注AI工具融合的创意从业者",
+      "ai_key_insights": "苹果正式启用 ‘genai.apple.com’ 子域名，或在 WWDC 2026 上推出面向开发者和设计师的生成式 AI 平台，预示 AI 深度嵌入苹果设计工具与生态的可能性。",
+      "ai_recommendation": "苹果AI平台子域名预示设计工具跃迁，设计师需提前关注新工作流的可能性。",
+      "title_original": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
       "title_en": null,
-      "title_zh": "AI没法直出UI？GPT+Figma这样搭才管用！",
-      "title_bilingual": "AI没法直出UI？GPT+Figma这样搭才管用！"
+      "title_zh": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
+      "title_bilingual": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com"
     },
     {
-      "id": "cfe8910b8316d99245c7faba07c23c7c944a4001",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "url": "https://www.uisdc.com/master-ai-skills",
-      "published_at": null,
-      "first_seen_at": "2026-05-22T03:50:58.840843Z",
-      "last_seen_at": "2026-05-23T03:26:38.776674Z",
-      "ai_filtered": true,
-      "title_original": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
+      "id": "c23b2d193e9a81bb90c337bbc72483f88a596f4b",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.wired.com",
+      "title": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
+      "url": "https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access",
+      "published_at": "2026-05-23T17:38:06.234000Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "隐私与监控",
+        "科技政策",
+        "数据安全"
+      ],
+      "ai_target_audience": "关心数字隐私、政府监控和公民自由的技术爱好者、政策研究者及法律从业者",
+      "ai_key_insights": "FBI 试图近乎实时地接入全美自动车牌识别系统，此举引发对无差别大规模监控和隐私边界的强烈忧虑。",
+      "ai_recommendation": "从监控实践警示设计伦理，适合思考隐私界面的设计师阅读。",
+      "title_original": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
       "title_en": null,
-      "title_zh": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！",
-      "title_bilingual": "如何从零开始写好一个Skill？保姆级教程+实战案例来了！"
+      "title_zh": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
+      "title_bilingual": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限"
+    },
+    {
+      "id": "338329137c15de203ef6b2825e1a62fb644fd1a9",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "Elon Musk has given up on solar power (on Earth)",
+      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth",
+      "published_at": "2026-05-23T13:00:00Z",
+      "first_seen_at": "2026-05-24T03:46:24.881510Z",
+      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Technology",
+        "Sustainability",
+        "Business"
+      ],
+      "ai_target_audience": "Tech enthusiasts, investors, energy industry professionals, and followers of Elon Musk’s ventures.",
+      "ai_key_insights": "Musk has pivoted away from terrestrial solar energy, likely focusing instead on more scalable or efficient energy solutions, reflecting broader strategic shifts in Tesla’s energy business and his personal priorities.",
+      "ai_recommendation": "文章揭示了马斯克能源战略的转向，对设计师而言，这暗示未来可持续产品设计可能需关注新的能源接口与用户场景。",
+      "title_original": "Elon Musk has given up on solar power (on Earth)",
+      "title_en": "Elon Musk has given up on solar power (on Earth)",
+      "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
+      "title_bilingual": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能 / Elon Musk has given up on solar power (on Earth)"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"

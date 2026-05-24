@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-23T03:26:38.776674Z",
+  "generated_at": "2026-05-24T03:46:24.881510Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 234,
-      "duration_ms": 4312,
+      "item_count": 227,
+      "duration_ms": 7905,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 242,
+      "duration_ms": 245,
       "error": null
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 35,
-      "duration_ms": 214,
+      "item_count": 25,
+      "duration_ms": 374,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 413,
+      "duration_ms": 666,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 361,
+      "duration_ms": 239,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 373,
-      "duration_ms": 11854,
+      "item_count": 380,
+      "duration_ms": 10186,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 3806,
+      "duration_ms": 1862,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3043,
-      "duration_ms": 1762,
+      "item_count": 2985,
+      "duration_ms": 913,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 73,
-      "duration_ms": 505,
+      "item_count": 54,
+      "duration_ms": 437,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 357,
+      "duration_ms": 260,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1048,
+      "duration_ms": 1849,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1603,
+      "duration_ms": 2965,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 144,
-      "duration_ms": 385,
+      "item_count": 146,
+      "duration_ms": 398,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 2,
       "item_count": 10,
-      "duration_ms": 1499,
+      "duration_ms": 571,
       "error": "2 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -124,9 +124,9 @@
   "successful_sites": 14,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 5151,
-  "items_before_topic_filter": 3353,
-  "items_in_24h": 10,
+  "fetched_raw_items": 5066,
+  "items_before_topic_filter": 2054,
+  "items_in_24h": 6,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -134,28 +134,13 @@
     "effective_feed_total": 3,
     "ok_feeds": 1,
     "failed_feeds": [
-      "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-      "https://rsshub.pseudoyu.com/twitter/user/ryolu"
+      "https://rsshub.pseudoyu.com/twitter/user/ryolu",
+      "https://rsshub.pseudoyu.com/twitter/user/Gavmn"
     ],
     "zero_item_feeds": [],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
-      {
-        "site_id": "opmlrss:fa13b8925b",
-        "site_name": "OPML RSS",
-        "feed_title": "rsshub.pseudoyu.com",
-        "feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-        "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-        "ok": false,
-        "item_count": 0,
-        "duration_ms": 652,
-        "error": "503 Server Error: Service Unavailable for url: https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
       {
         "site_id": "opmlrss:822dc26cc6",
         "site_name": "OPML RSS",
@@ -164,8 +149,23 @@
         "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/ryolu",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 661,
+        "duration_ms": 232,
         "error": "503 Server Error: Service Unavailable for url: https://rsshub.pseudoyu.com/twitter/user/ryolu",
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:fa13b8925b",
+        "site_name": "OPML RSS",
+        "feed_title": "rsshub.pseudoyu.com",
+        "feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
+        "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
+        "ok": false,
+        "item_count": 0,
+        "duration_ms": 253,
+        "error": "503 Server Error: Service Unavailable for url: https://rsshub.pseudoyu.com/twitter/user/Gavmn",
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
@@ -179,7 +179,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 186,
+        "duration_ms": 86,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -208,6 +208,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-05-23"
+    "generated_date_utc": "2026-05-24"
   }
 }

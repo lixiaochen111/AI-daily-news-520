@@ -1,79 +1,85 @@
 {
-  "generated_at": "2026-05-24T03:46:24.881510Z",
+  "generated_at": "2026-05-25T03:59:27.508716Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_ai_raw": 6,
-  "total_items_raw": 2054,
-  "total_items_all_mode": 1958,
+  "total_items": 4,
+  "total_items_ai_raw": 4,
+  "total_items_raw": 2095,
+  "total_items_all_mode": 1949,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 6,
+    "total": 4,
     "tier_0": 0,
     "tier_1": 3,
-    "tier_2": 3,
+    "tier_2": 1,
     "blacklisted": 0,
-    "items_before_filter": 1956,
-    "items_after_filter": 6,
-    "filter_pass_rate": "0.3%"
+    "items_before_filter": 1927,
+    "items_after_filter": 4,
+    "filter_pass_rate": "0.2%"
   },
-  "archive_total": 17639,
+  "archive_total": 19770,
   "site_count": 14,
-  "source_count": 6,
+  "source_count": 4,
   "site_stats": [
-    {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 2,
-      "raw_count": 1017
-    },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 2,
-      "raw_count": 488
+      "raw_count": 469
     },
     {
-      "site_id": "iris",
-      "site_name": "Info Flow",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
       "count": 1,
-      "raw_count": 258
+      "raw_count": 1
     },
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "count": 1,
-      "raw_count": 157
+      "raw_count": 138
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 69
+      "raw_count": 73
+    },
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 280
+    },
+    {
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "count": 0,
+      "raw_count": 1063
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 20
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 54
+      "raw_count": 40
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 6
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 1
+      "raw_count": 8
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 4
+      "raw_count": 3
     },
     {
       "site_id": "official_ai",
@@ -98,208 +104,19 @@
       "site_name": "AI HubToday",
       "count": 0,
       "raw_count": 0
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 0
     }
   ],
   "items": [
     {
-      "id": "423419de698e0a28b92bd32e1e667e149ebfd1bf",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "知乎 · 热榜",
-      "title": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
-      "url": "https://www.zhihu.com/question/2040070496926922044",
-      "published_at": null,
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "交互设计",
-        "AI 产品设计",
-        "阅读用户体验"
-      ],
-      "ai_target_audience": "关注AI功能落地的UX/UI设计师、产品经理，及对阅读类产品创新感兴趣的设计研究人员",
-      "ai_key_insights": "微信读书AI Skill将生成式AI融入阅读流，重塑了从被动接收到主动问答的交互模式，可能引发阅读习惯从线性向探索式转变，同时带来界面信息架构与反馈设计的新挑战。",
-      "ai_recommendation": "深度剖析AI如何重塑阅读交互，为设计师提供前沿的交互范式与体验反思，极具启发性。",
-      "title_original": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
-      "title_en": null,
-      "title_zh": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
-      "title_bilingual": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？"
-    },
-    {
-      "id": "085cdae7de7eb988f04f71349fb485f4c2d351d2",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "人人都是产品经理 · 日榜",
-      "title": "AI用户体验要素二：那些无法忽略的UI交互行为",
-      "url": "https://www.woshipm.com/?p=6400006",
-      "published_at": null,
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI交互设计",
-        "用户体验要素",
-        "UI行为模式"
-      ],
-      "ai_target_audience": "对AI产品设计有兴趣的UI/UX设计师及产品经理",
-      "ai_key_insights": "探讨了AI应用中不可忽视的UI交互细节，如动态反馈、渐进式展示、智能缺省和容错设计等，结合实例说明如何通过界面行为提升感知智能和可用性。",
-      "ai_recommendation": "将AI能力转化为直观UI行为，是设计师必读的交互落地指南。",
-      "title_original": "AI用户体验要素二：那些无法忽略的UI交互行为",
-      "title_en": null,
-      "title_zh": "AI用户体验要素二：那些无法忽略的UI交互行为",
-      "title_bilingual": "AI用户体验要素二：那些无法忽略的UI交互行为"
-    },
-    {
-      "id": "59c9099f0f91e80ef3413af2f037d8b8bbb97c7c",
+      "id": "2bf8f01e6be9b74d7d40d037149584f7173bb61e",
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "news.google.com",
-      "title": "Shein收购Everlane其实完全合乎情理 - WIRED",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UNGlnS1l4bzdfWXNEVFFfYWQ5NWU4WEhvbk1qSjJjT1JWajJtRG9zeC0yWnlrRFFvNVlJMHlzN1JPdVFjTmJvbV9Jb3ZBN0taQjFtdDVSSV8xVDN1Tkl2alZycGRwTWZRWDN4WHdqTjhMdDJaTDJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "published_at": "2026-05-24T02:57:47.781000Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.3,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "商业分析",
-        "时尚产业",
-        "科技趋势"
-      ],
-      "ai_target_audience": "关注时尚零售、企业战略与可持续商业模式的专业人士与投资分析师",
-      "ai_key_insights": "文章从商业模式整合角度分析Shein收购Everlane的合理性，探讨快时尚与可持续品牌的互补逻辑及市场信号",
-      "ai_recommendation": "推荐阅读以理解全球时尚品牌战略背后的逻辑，对设计师思考商业与体验的平衡有启发意义",
-      "title_original": "Shein收购Everlane其实完全合乎情理 - WIRED",
-      "title_en": null,
-      "title_zh": "Shein收购Everlane其实完全合乎情理 - WIRED",
-      "title_bilingual": "Shein收购Everlane其实完全合乎情理 - WIRED"
-    },
-    {
-      "id": "d32665d642d935b69b1b0a0ff5693682d835c1b1",
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "IT之家 (ITHome)",
-      "title": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
-      "url": "https://www.ithome.com/0/954/457.htm",
-      "published_at": "2026-05-23T22:40:54Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "AI设计工具",
-        "科技动态"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品经理、苹果生态开发者及关注AI工具融合的创意从业者",
-      "ai_key_insights": "苹果正式启用 ‘genai.apple.com’ 子域名，或在 WWDC 2026 上推出面向开发者和设计师的生成式 AI 平台，预示 AI 深度嵌入苹果设计工具与生态的可能性。",
-      "ai_recommendation": "苹果AI平台子域名预示设计工具跃迁，设计师需提前关注新工作流的可能性。",
-      "title_original": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
-      "title_en": null,
-      "title_zh": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
-      "title_bilingual": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com"
-    },
-    {
-      "id": "c23b2d193e9a81bb90c337bbc72483f88a596f4b",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.wired.com",
-      "title": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
-      "url": "https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access",
-      "published_at": "2026-05-23T17:38:06.234000Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.2,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "隐私与监控",
-        "科技政策",
-        "数据安全"
-      ],
-      "ai_target_audience": "关心数字隐私、政府监控和公民自由的技术爱好者、政策研究者及法律从业者",
-      "ai_key_insights": "FBI 试图近乎实时地接入全美自动车牌识别系统，此举引发对无差别大规模监控和隐私边界的强烈忧虑。",
-      "ai_recommendation": "从监控实践警示设计伦理，适合思考隐私界面的设计师阅读。",
-      "title_original": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
-      "title_en": null,
-      "title_zh": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
-      "title_bilingual": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限"
-    },
-    {
-      "id": "338329137c15de203ef6b2825e1a62fb644fd1a9",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Elon Musk has given up on solar power (on Earth)",
-      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth",
-      "published_at": "2026-05-23T13:00:00Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "title": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmMzd0VYMVA2X3E4bWFQR1dSQUt6YldMLXNHbmJWUGRvUjA5STBuYTlJQ0FjVTFtN1hEb0QxTDV0d0hYSlV4R3RJMkNoSXczQmFBOExZcEp3MGdaczAxVWZodDBVSlN3WHc3c1BoZzBlM3VjdG40VExKYkswQ2lReVEwcEV0TndSNzVLTXdGMkxjNXU2QTYxVnJ3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "published_at": "2026-05-25T00:32:58.241000Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -325,216 +142,161 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.2,
+      "ai_design_relevance": 0.5,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Technology",
-        "Sustainability",
-        "Business"
+        "AI安全",
+        "科技新闻",
+        "产品设计"
       ],
-      "ai_target_audience": "Tech enthusiasts, investors, energy industry professionals, and followers of Elon Musk’s ventures.",
-      "ai_key_insights": "Musk has pivoted away from terrestrial solar energy, likely focusing instead on more scalable or efficient energy solutions, reflecting broader strategic shifts in Tesla’s energy business and his personal priorities.",
-      "ai_recommendation": "文章揭示了马斯克能源战略的转向，对设计师而言，这暗示未来可持续产品设计可能需关注新的能源接口与用户场景。",
-      "title_original": "Elon Musk has given up on solar power (on Earth)",
-      "title_en": "Elon Musk has given up on solar power (on Earth)",
-      "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
-      "title_bilingual": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能 / Elon Musk has given up on solar power (on Earth)"
+      "ai_target_audience": "关注AI产品安全与用户体验的技术决策者、产品设计师及AI从业者",
+      "ai_key_insights": "AI安全问题是实时动态的，即使是谷歌这样的领先企业也无法完全避免；设计中需要嵌入持续的风险评估机制，平衡创新与用户信任。",
+      "ai_recommendation": "本文从谷歌的即时应对切入，生动呈现AI安全挑战的紧迫性，有助于设计师在构建AI功能时预判潜在风险并强化用户信任。",
+      "title_original": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch",
+      "title_en": null,
+      "title_zh": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch",
+      "title_bilingual": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch"
+    },
+    {
+      "id": "19f46cec699008e3b3c1d9779c05b061f5c1b6bf",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.businessinsider.com",
+      "title": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务",
+      "url": "https://www.businessinsider.com/product-manager-san-francisco-used-claude-build-postcard-business-2026-5",
+      "published_at": "2026-05-25T00:16:43.095000Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.6,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI应用",
+        "创业故事",
+        "产品设计流程"
+      ],
+      "ai_target_audience": "产品经理、创业者、UI/UX设计师、对AI工具应用感兴趣的技术爱好者",
+      "ai_key_insights": "通过Claude这类AI助手，产品经理可以在极短时间内完成概念验证、设计文案生成和基础业务搭建，大幅降低创业启动门槛，展示了AI从辅助设计到全流程赋能的潜力。",
+      "ai_recommendation": "用真实案例展示AI如何将创意快速落地，为设计师和产品人提供可复用的灵感与实操思路。",
+      "title_original": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务",
+      "title_en": null,
+      "title_zh": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务",
+      "title_bilingual": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务"
+    },
+    {
+      "id": "6555d7948a17d56d12062c29b18a55a8caab5907",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "www.theverge.com",
+      "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "published_at": "2026-05-24T12:00:00Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI Design",
+        "Cybersecurity",
+        "Conversational UX"
+      ],
+      "ai_target_audience": "UX/UI designers, conversational designers, product managers, and developers working on AI chatbot interfaces or concerned with AI safety",
+      "ai_key_insights": "Hackers exploit chatbot personas through prompt injection and social engineering, highlighting the need for designers to balance friendly, human-like interactions with robust security constraints. The article illustrates how personality design can become an attack vector, urging integration of security thinking into the UX design process for AI systems.",
+      "ai_recommendation": "这篇文章揭示了聊天机器人人格设计中的安全隐患，提醒设计师在创造友善界面时也需强化安全防护。",
+      "title_original": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "title_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
+      "title_bilingual": "黑客正在学习利用聊天机器人的“个性” / Hackers are learning to exploit chatbot &#8216;personalities&#8217;"
+    },
+    {
+      "id": "51df9902a14789b8b105c42fa14ceeb82bb15e26",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "url": "https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding",
+      "published_at": "2026-05-24T09:00:00Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.0,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "biology",
+        "public health",
+        "home remedies"
+      ],
+      "ai_target_audience": "homeowners, gardeners, and individuals interested in natural pest control and science-backed life hacks",
+      "ai_key_insights": "Garlic contains sulfur compounds like allicin that interfere with mosquitoes' olfactory receptors, masking human scent and deterring biting; garlic-infused water can also kill larvae when applied to standing water, disrupting breeding cycles without synthetic chemicals.",
+      "ai_recommendation": "这篇关于大蒜驱蚊的科学解析虽与设计无关，但提供了清晰易懂的机制说明和实用灭蚊技巧，适合追求自然防虫方法的读者参考。",
+      "title_original": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "title_en": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "title_zh": "为什么大蒜可以驱除蚊子并防止它们繁殖",
+      "title_bilingual": "为什么大蒜可以驱除蚊子并防止它们繁殖 / Why Garlic Repels Mosquitoes and Keeps Them From Breeding"
     }
   ],
   "items_ai": [
     {
-      "id": "423419de698e0a28b92bd32e1e667e149ebfd1bf",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "知乎 · 热榜",
-      "title": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
-      "url": "https://www.zhihu.com/question/2040070496926922044",
-      "published_at": null,
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "交互设计",
-        "AI 产品设计",
-        "阅读用户体验"
-      ],
-      "ai_target_audience": "关注AI功能落地的UX/UI设计师、产品经理，及对阅读类产品创新感兴趣的设计研究人员",
-      "ai_key_insights": "微信读书AI Skill将生成式AI融入阅读流，重塑了从被动接收到主动问答的交互模式，可能引发阅读习惯从线性向探索式转变，同时带来界面信息架构与反馈设计的新挑战。",
-      "ai_recommendation": "深度剖析AI如何重塑阅读交互，为设计师提供前沿的交互范式与体验反思，极具启发性。",
-      "title_original": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
-      "title_en": null,
-      "title_zh": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？",
-      "title_bilingual": "如何评价微信读书上线的 AI Skill ？使用后你的阅读习惯和体验发生了哪些变化？"
-    },
-    {
-      "id": "085cdae7de7eb988f04f71349fb485f4c2d351d2",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "人人都是产品经理 · 日榜",
-      "title": "AI用户体验要素二：那些无法忽略的UI交互行为",
-      "url": "https://www.woshipm.com/?p=6400006",
-      "published_at": null,
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI交互设计",
-        "用户体验要素",
-        "UI行为模式"
-      ],
-      "ai_target_audience": "对AI产品设计有兴趣的UI/UX设计师及产品经理",
-      "ai_key_insights": "探讨了AI应用中不可忽视的UI交互细节，如动态反馈、渐进式展示、智能缺省和容错设计等，结合实例说明如何通过界面行为提升感知智能和可用性。",
-      "ai_recommendation": "将AI能力转化为直观UI行为，是设计师必读的交互落地指南。",
-      "title_original": "AI用户体验要素二：那些无法忽略的UI交互行为",
-      "title_en": null,
-      "title_zh": "AI用户体验要素二：那些无法忽略的UI交互行为",
-      "title_bilingual": "AI用户体验要素二：那些无法忽略的UI交互行为"
-    },
-    {
-      "id": "59c9099f0f91e80ef3413af2f037d8b8bbb97c7c",
+      "id": "2bf8f01e6be9b74d7d40d037149584f7173bb61e",
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "source": "news.google.com",
-      "title": "Shein收购Everlane其实完全合乎情理 - WIRED",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UNGlnS1l4bzdfWXNEVFFfYWQ5NWU4WEhvbk1qSjJjT1JWajJtRG9zeC0yWnlrRFFvNVlJMHlzN1JPdVFjTmJvbV9Jb3ZBN0taQjFtdDVSSV8xVDN1Tkl2alZycGRwTWZRWDN4WHdqTjhMdDJaTDJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "published_at": "2026-05-24T02:57:47.781000Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.3,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "商业分析",
-        "时尚产业",
-        "科技趋势"
-      ],
-      "ai_target_audience": "关注时尚零售、企业战略与可持续商业模式的专业人士与投资分析师",
-      "ai_key_insights": "文章从商业模式整合角度分析Shein收购Everlane的合理性，探讨快时尚与可持续品牌的互补逻辑及市场信号",
-      "ai_recommendation": "推荐阅读以理解全球时尚品牌战略背后的逻辑，对设计师思考商业与体验的平衡有启发意义",
-      "title_original": "Shein收购Everlane其实完全合乎情理 - WIRED",
-      "title_en": null,
-      "title_zh": "Shein收购Everlane其实完全合乎情理 - WIRED",
-      "title_bilingual": "Shein收购Everlane其实完全合乎情理 - WIRED"
-    },
-    {
-      "id": "d32665d642d935b69b1b0a0ff5693682d835c1b1",
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "IT之家 (ITHome)",
-      "title": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
-      "url": "https://www.ithome.com/0/954/457.htm",
-      "published_at": "2026-05-23T22:40:54Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "AI设计工具",
-        "科技动态"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品经理、苹果生态开发者及关注AI工具融合的创意从业者",
-      "ai_key_insights": "苹果正式启用 ‘genai.apple.com’ 子域名，或在 WWDC 2026 上推出面向开发者和设计师的生成式 AI 平台，预示 AI 深度嵌入苹果设计工具与生态的可能性。",
-      "ai_recommendation": "苹果AI平台子域名预示设计工具跃迁，设计师需提前关注新工作流的可能性。",
-      "title_original": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
-      "title_en": null,
-      "title_zh": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com",
-      "title_bilingual": "WWDC 2026 在即，苹果悄悄启用全新子域名 genai.apple.com"
-    },
-    {
-      "id": "c23b2d193e9a81bb90c337bbc72483f88a596f4b",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.wired.com",
-      "title": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
-      "url": "https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access",
-      "published_at": "2026-05-23T17:38:06.234000Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.2,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "隐私与监控",
-        "科技政策",
-        "数据安全"
-      ],
-      "ai_target_audience": "关心数字隐私、政府监控和公民自由的技术爱好者、政策研究者及法律从业者",
-      "ai_key_insights": "FBI 试图近乎实时地接入全美自动车牌识别系统，此举引发对无差别大规模监控和隐私边界的强烈忧虑。",
-      "ai_recommendation": "从监控实践警示设计伦理，适合思考隐私界面的设计师阅读。",
-      "title_original": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
-      "title_en": null,
-      "title_zh": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限",
-      "title_bilingual": "联邦调查局希望获得对美国车牌识别系统的“近实时”访问权限"
-    },
-    {
-      "id": "338329137c15de203ef6b2825e1a62fb644fd1a9",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Elon Musk has given up on solar power (on Earth)",
-      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth",
-      "published_at": "2026-05-23T13:00:00Z",
-      "first_seen_at": "2026-05-24T03:46:24.881510Z",
-      "last_seen_at": "2026-05-24T03:46:24.881510Z",
+      "title": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmMzd0VYMVA2X3E4bWFQR1dSQUt6YldMLXNHbmJWUGRvUjA5STBuYTlJQ0FjVTFtN1hEb0QxTDV0d0hYSlV4R3RJMkNoSXczQmFBOExZcEp3MGdaczAxVWZodDBVSlN3WHc3c1BoZzBlM3VjdG40VExKYkswQ2lReVEwcEV0TndSNzVLTXdGMkxjNXU2QTYxVnJ3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "published_at": "2026-05-25T00:32:58.241000Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -560,20 +322,148 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.2,
+      "ai_design_relevance": 0.5,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Technology",
-        "Sustainability",
-        "Business"
+        "AI安全",
+        "科技新闻",
+        "产品设计"
       ],
-      "ai_target_audience": "Tech enthusiasts, investors, energy industry professionals, and followers of Elon Musk’s ventures.",
-      "ai_key_insights": "Musk has pivoted away from terrestrial solar energy, likely focusing instead on more scalable or efficient energy solutions, reflecting broader strategic shifts in Tesla’s energy business and his personal priorities.",
-      "ai_recommendation": "文章揭示了马斯克能源战略的转向，对设计师而言，这暗示未来可持续产品设计可能需关注新的能源接口与用户场景。",
-      "title_original": "Elon Musk has given up on solar power (on Earth)",
-      "title_en": "Elon Musk has given up on solar power (on Earth)",
-      "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
-      "title_bilingual": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能 / Elon Musk has given up on solar power (on Earth)"
+      "ai_target_audience": "关注AI产品安全与用户体验的技术决策者、产品设计师及AI从业者",
+      "ai_key_insights": "AI安全问题是实时动态的，即使是谷歌这样的领先企业也无法完全避免；设计中需要嵌入持续的风险评估机制，平衡创新与用户信任。",
+      "ai_recommendation": "本文从谷歌的即时应对切入，生动呈现AI安全挑战的紧迫性，有助于设计师在构建AI功能时预判潜在风险并强化用户信任。",
+      "title_original": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch",
+      "title_en": null,
+      "title_zh": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch",
+      "title_bilingual": "每个人都在实时应对人工智能安全问题——就连谷歌也不例外 - TechCrunch"
+    },
+    {
+      "id": "19f46cec699008e3b3c1d9779c05b061f5c1b6bf",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.businessinsider.com",
+      "title": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务",
+      "url": "https://www.businessinsider.com/product-manager-san-francisco-used-claude-build-postcard-business-2026-5",
+      "published_at": "2026-05-25T00:16:43.095000Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.6,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI应用",
+        "创业故事",
+        "产品设计流程"
+      ],
+      "ai_target_audience": "产品经理、创业者、UI/UX设计师、对AI工具应用感兴趣的技术爱好者",
+      "ai_key_insights": "通过Claude这类AI助手，产品经理可以在极短时间内完成概念验证、设计文案生成和基础业务搭建，大幅降低创业启动门槛，展示了AI从辅助设计到全流程赋能的潜力。",
+      "ai_recommendation": "用真实案例展示AI如何将创意快速落地，为设计师和产品人提供可复用的灵感与实操思路。",
+      "title_original": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务",
+      "title_en": null,
+      "title_zh": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务",
+      "title_bilingual": "我是一名产品经理，利用Claude在4小时内创办了一家明信片业务"
+    },
+    {
+      "id": "6555d7948a17d56d12062c29b18a55a8caab5907",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "www.theverge.com",
+      "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "published_at": "2026-05-24T12:00:00Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI Design",
+        "Cybersecurity",
+        "Conversational UX"
+      ],
+      "ai_target_audience": "UX/UI designers, conversational designers, product managers, and developers working on AI chatbot interfaces or concerned with AI safety",
+      "ai_key_insights": "Hackers exploit chatbot personas through prompt injection and social engineering, highlighting the need for designers to balance friendly, human-like interactions with robust security constraints. The article illustrates how personality design can become an attack vector, urging integration of security thinking into the UX design process for AI systems.",
+      "ai_recommendation": "这篇文章揭示了聊天机器人人格设计中的安全隐患，提醒设计师在创造友善界面时也需强化安全防护。",
+      "title_original": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "title_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
+      "title_bilingual": "黑客正在学习利用聊天机器人的“个性” / Hackers are learning to exploit chatbot &#8216;personalities&#8217;"
+    },
+    {
+      "id": "51df9902a14789b8b105c42fa14ceeb82bb15e26",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "url": "https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding",
+      "published_at": "2026-05-24T09:00:00Z",
+      "first_seen_at": "2026-05-25T03:59:27.508716Z",
+      "last_seen_at": "2026-05-25T03:59:27.508716Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.0,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "biology",
+        "public health",
+        "home remedies"
+      ],
+      "ai_target_audience": "homeowners, gardeners, and individuals interested in natural pest control and science-backed life hacks",
+      "ai_key_insights": "Garlic contains sulfur compounds like allicin that interfere with mosquitoes' olfactory receptors, masking human scent and deterring biting; garlic-infused water can also kill larvae when applied to standing water, disrupting breeding cycles without synthetic chemicals.",
+      "ai_recommendation": "这篇关于大蒜驱蚊的科学解析虽与设计无关，但提供了清晰易懂的机制说明和实用灭蚊技巧，适合追求自然防虫方法的读者参考。",
+      "title_original": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "title_en": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "title_zh": "为什么大蒜可以驱除蚊子并防止它们繁殖",
+      "title_bilingual": "为什么大蒜可以驱除蚊子并防止它们繁殖 / Why Garlic Repels Mosquitoes and Keeps Them From Breeding"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"

@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-05-26T03:42:43.252968Z",
+  "generated_at": "2026-05-27T03:59:05.819252Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_ai_raw": 2,
-  "total_items_raw": 3403,
-  "total_items_all_mode": 3161,
+  "total_items": 8,
+  "total_items_ai_raw": 8,
+  "total_items_raw": 2477,
+  "total_items_all_mode": 2326,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 2,
-    "tier_0": 1,
-    "tier_1": 1,
+    "total": 8,
+    "tier_0": 0,
+    "tier_1": 8,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2096,
-    "items_after_filter": 2,
-    "filter_pass_rate": "0.1%"
+    "items_before_filter": 2288,
+    "items_after_filter": 8,
+    "filter_pass_rate": "0.3%"
   },
-  "archive_total": 22048,
+  "archive_total": 24562,
   "site_count": 14,
-  "source_count": 2,
+  "source_count": 6,
   "site_stats": [
     {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 2,
-      "raw_count": 529
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 135
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 4,
+      "raw_count": 220
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 2166
+      "count": 1,
+      "raw_count": 1170
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 1,
+      "raw_count": 574
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 1,
+      "raw_count": 28
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 1,
+      "raw_count": 5
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 40
+      "raw_count": 20
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 300
+      "raw_count": 302
     },
     {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 11
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 158
+      "raw_count": 69
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 59
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 1
-    },
-    {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
-      "count": 0,
-      "raw_count": 4
+      "raw_count": 77
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 0
+      "raw_count": 7
+    },
+    {
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "count": 0,
+      "raw_count": 5
     },
     {
       "site_id": "aibreakfast",
@@ -108,45 +108,110 @@
   ],
   "items": [
     {
-      "id": "57efaeaaea5de04cb9fe782eb7cea4d9b04f9c13",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "community.obsidian.md",
-      "title": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "url": "https://community.obsidian.md/plugins/gcal-sidebar",
-      "published_at": "2026-05-25T20:30:51.732000Z",
-      "first_seen_at": "2026-05-26T03:42:43.252968Z",
-      "last_seen_at": "2026-05-26T03:42:43.252968Z",
-      "_tier": 0,
+      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "url": "https://www.uisdc.com/claude-design-2",
+      "published_at": null,
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
       "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
+        "id": "uisdc",
+        "name": "优设网",
         "patterns": [
-          "sidebar.io",
-          "Sidebar"
+          "uisdc.com",
+          "优设网"
         ],
-        "reason": "每日5个最佳设计链接，人工筛选",
+        "reason": "设计师学习平台，内容多，需AI筛选高质量",
         "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
+        "expected_items_per_day": 2,
+        "language": "zh",
+        "ai_filter_focus": [
+          "AI设计教程",
+          "工具实测",
+          "设计案例"
+        ],
+        "max_items_per_day": 3
       },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "UI设计",
+        "AI设计",
+        "设计规范"
+      ],
+      "ai_target_audience": "UI/UX设计师、产品设计师、关注AI与界面融合的设计师",
+      "ai_key_insights": "系统梳理7条Claude Design设计规范，指导设计师在AI+UI场景中提升界面产出质量，强调实用性和规范性。",
+      "ai_recommendation": "为希望将AI能力整合到界面中的设计师提供了具体可落地的设计规范，值得借鉴。",
+      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
       "title_en": null,
-      "title_zh": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "title_bilingual": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件"
+      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
     },
     {
-      "id": "4f82f43dbb84731ec02134553f48461a64ba4d65",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "techcrunch.com",
-      "title": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？",
-      "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore",
-      "published_at": "2026-05-25T13:35:44.393000Z",
-      "first_seen_at": "2026-05-26T03:42:43.252968Z",
-      "last_seen_at": "2026-05-26T03:42:43.252968Z",
+      "id": "ca8bc381c1c634b55b6faa1bd1a0349ffbf1629e",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical",
+      "published_at": "2026-05-26T20:46:03Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.5,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI Ethics",
+        "Technology Policy",
+        "Human-Centered Design"
+      ],
+      "ai_target_audience": "UI/UX designers, product managers, and tech leads interested in the ethical implications of AI and its intersection with human values and institutional frameworks.",
+      "ai_key_insights": "The article explores the Vatican's engagement with AI safety company Anthropic to shape an encyclical on AI, highlighting the growing influence of ethical alignment in technology development and the need for designers to embed moral considerations into AI-driven interfaces and user experiences.",
+      "ai_recommendation": "这篇文章揭示了AI安全理念如何影响全球伦理框架，为UI/UX设计师提供了负责任AI交互设计的关键洞察，值得深入阅读。",
+      "title_original": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "title_en": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "title_zh": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲",
+      "title_bilingual": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲 / Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation"
+    },
+    {
+      "id": "ea43a44e9c2c86252619db2881d806162e137945",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+      "url": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved",
+      "published_at": "2026-05-26T15:27:12Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -172,63 +237,379 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.4,
+      "ai_design_relevance": 0.2,
       "ai_quality_score": 7,
       "ai_categories": [
-        "搜索引擎",
-        "产品比较",
-        "数字工具"
+        "cybersecurity",
+        "mystery",
+        "hacking"
       ],
-      "ai_target_audience": "关注数字隐私、厌倦谷歌生态的普通互联网用户，以及对新工具保持好奇的科技爱好者",
-      "ai_key_insights": "梳理了多个非谷歌搜索引擎的特色，从隐私保护、搜索质量、商业模式到社会责任，帮助读者根据个人需求甄选替代品，反映出用户对巨头中心化体验的不满与多元化尝试趋势。",
-      "ai_recommendation": "虽非设计专文，但为设计师提供多种搜索工具的一手体验参考，便于在工作流中做出更自主的选择。",
-      "title_original": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？",
+      "ai_target_audience": "Tech enthusiasts, cybersecurity professionals, and readers interested in unsolved digital mysteries.",
+      "ai_key_insights": "The article explores a persistent, unsolved cybersecurity case involving elusive 'ghost hackers' that bypassed conventional defenses, highlighting gaps in attribution and the sophistication of modern threats.",
+      "ai_recommendation": "这是一篇引人入胜的网络安全谜案报道，激发对未知威胁的思考。",
+      "title_original": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+      "title_en": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+      "title_zh": "幽灵黑客：无人解开的网络安全之谜",
+      "title_bilingual": "幽灵黑客：无人解开的网络安全之谜 / Ghost hackers: the cybersecurity mystery that nobody has solved"
+    },
+    {
+      "id": "af529aa39ef658c40714c96f4992c21c1bf2377b",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theverge.com",
+      "title": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
+      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
+      "published_at": "2026-05-26T15:09:52.248000Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.3,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "科技商业",
+        "人工智能",
+        "企业战略"
+      ],
+      "ai_target_audience": "关注AI投资回报、企业数字化转型的产品经理、技术高管和商业分析师",
+      "ai_key_insights": "优步CEO对AI巨额投入的质疑折射出行业对AI炒作与实际商业价值落差的反思，提示设计师应关注AI应用的真实用户体验与成本效益，而非盲目追逐技术热点。",
+      "ai_recommendation": "从高管视角审视AI投资的合理性，为设计师提供商业与技术平衡的务实思考。",
+      "title_original": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
       "title_en": null,
-      "title_zh": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？",
-      "title_bilingual": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？"
+      "title_zh": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
+      "title_bilingual": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”"
+    },
+    {
+      "id": "4b6723850d73bdbaa5ab4f14cbdd310d7e883567",
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "source": "The Verge：AI（RSS）",
+      "title": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
+      "published_at": "2026-05-26T14:00:00Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI",
+        "搜索体验",
+        "未来趋势"
+      ],
+      "ai_target_audience": "UI/UX 设计师、产品经理、科技行业决策者及对 AI 搜索变革感兴趣的设计师",
+      "ai_key_insights": "Sundar Pichai 深度解读生成式 AI 如何重塑搜索交互、信息呈现方式及互联网内容生态，揭示了从关键词提问到对话式、可视化答案的范式转移，并讨论了网络内容原创性与 AI 生成的平衡。",
+      "ai_recommendation": "谷歌 CEO 亲述 AI 搜索的交互变革，为设计下一代智能界面提供了顶层视角与直接启示。",
+      "title_original": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "title_en": null,
+      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化"
+    },
+    {
+      "id": "95b011a57a6bdb7a9d5efe69c9e961b9329782e8",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "www.theverge.com",
+      "title": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
+      "published_at": "2026-05-26T12:46:03Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 6,
+      "ai_categories": [
+        "AI音乐生成",
+        "用户行为",
+        "数字文化",
+        "用户体验设计"
+      ],
+      "ai_target_audience": "对AI工具、数字内容创作及用户行为变迁感兴趣的设计师、技术观察者与产品经理",
+      "ai_key_insights": "文章探讨了用户沉溺于个人AI生成音乐（Suno slop）的现象，揭示了高度个性化内容如何形成自我参照的消费闭环，挑战了传统音乐平台的内容发现与推荐设计范式。",
+      "ai_recommendation": "这篇文章揭示了AI生成个性化内容如何改变用户消费模式，对设计音乐交互界面的设计师具有启发意义。",
+      "title_original": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "title_en": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "title_zh": "没有人愿意告诉我为什么他们只听自己的 Suno slop",
+      "title_bilingual": "没有人愿意告诉我为什么他们只听自己的 Suno slop / Nobody wants to tell me why they only listen to their own Suno slop"
+    },
+    {
+      "id": "f24c471cc6e70b383e3c7192953e6ddfea845359",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "7 Ways to Get So Good at AI, People Will Think You Are AI",
+      "url": "https://www.wired.com/story/7-ways-to-get-so-good-at-ai-people-will-think-you-are-ai",
+      "published_at": "2026-05-26T10:00:00Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 9,
+      "ai_categories": [
+        "AI & Design",
+        "Productivity",
+        "Technology"
+      ],
+      "ai_target_audience": "Tech-savvy professionals, UI/UX designers, developers, and content creators seeking to master AI tools and integrate them seamlessly into creative and analytical workflows.",
+      "ai_key_insights": "The article offers seven actionable strategies to enhance AI proficiency—such as advanced prompt engineering, output personalization, and workflow automation—making one's AI interactions indistinguishable from truly autonomous intelligence. It emphasizes blending human creativity with machine efficiency to achieve superhuman results, particularly relevant for designers automating repetitive tasks, generating design variations, and refining user experiences with data-driven insights.",
+      "ai_recommendation": "这篇Wired文章揭示了让你用AI出神入化的七个秘诀，设计师能从中获取提升效率与创造力的独特招数，不可错过。",
+      "title_original": "7 Ways to Get So Good at AI, People Will Think You Are AI",
+      "title_en": "7 Ways to Get So Good at AI, People Will Think You Are AI",
+      "title_zh": "7 种方法让你擅长人工智能，让人们认为你是人工智能",
+      "title_bilingual": "7 种方法让你擅长人工智能，让人们认为你是人工智能 / 7 Ways to Get So Good at AI, People Will Think You Are AI"
+    },
+    {
+      "id": "981e96529619b2e3184e5ae60aaa5cc5625ef2d0",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
+      "url": "https://www.wired.com/story/fact-checking-ai",
+      "published_at": "2026-05-26T10:00:00Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.6,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI & Ethics",
+        "Technology Critique",
+        "Information Design"
+      ],
+      "ai_target_audience": "UI/UX designers and product teams integrating AI-powered content tools, as well as tech professionals who rely on AI-generated information for decision-making.",
+      "ai_key_insights": "AI frequently produces confident but incorrect outputs, posing risks for design decisions that depend on accurate data; fact-checking remains irreplaceable, and designers should treat AI as a flawed collaborator rather than a source of truth, building verification steps into their workflows.",
+      "ai_recommendation": "AI生成内容暗藏大量错误，设计师若直接引用将损害产品可信度，必须建立人工核实环节。",
+      "title_original": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
+      "title_en": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
+      "title_zh": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多",
+      "title_bilingual": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多 / I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think"
     }
   ],
   "items_ai": [
     {
-      "id": "57efaeaaea5de04cb9fe782eb7cea4d9b04f9c13",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "community.obsidian.md",
-      "title": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "url": "https://community.obsidian.md/plugins/gcal-sidebar",
-      "published_at": "2026-05-25T20:30:51.732000Z",
-      "first_seen_at": "2026-05-26T03:42:43.252968Z",
-      "last_seen_at": "2026-05-26T03:42:43.252968Z",
-      "_tier": 0,
+      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "url": "https://www.uisdc.com/claude-design-2",
+      "published_at": null,
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
       "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
+        "id": "uisdc",
+        "name": "优设网",
         "patterns": [
-          "sidebar.io",
-          "Sidebar"
+          "uisdc.com",
+          "优设网"
         ],
-        "reason": "每日5个最佳设计链接，人工筛选",
+        "reason": "设计师学习平台，内容多，需AI筛选高质量",
         "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
+        "expected_items_per_day": 2,
+        "language": "zh",
+        "ai_filter_focus": [
+          "AI设计教程",
+          "工具实测",
+          "设计案例"
+        ],
+        "max_items_per_day": 3
       },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "UI设计",
+        "AI设计",
+        "设计规范"
+      ],
+      "ai_target_audience": "UI/UX设计师、产品设计师、关注AI与界面融合的设计师",
+      "ai_key_insights": "系统梳理7条Claude Design设计规范，指导设计师在AI+UI场景中提升界面产出质量，强调实用性和规范性。",
+      "ai_recommendation": "为希望将AI能力整合到界面中的设计师提供了具体可落地的设计规范，值得借鉴。",
+      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
       "title_en": null,
-      "title_zh": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
-      "title_bilingual": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件"
+      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
     },
     {
-      "id": "4f82f43dbb84731ec02134553f48461a64ba4d65",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "techcrunch.com",
-      "title": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？",
-      "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore",
-      "published_at": "2026-05-25T13:35:44.393000Z",
-      "first_seen_at": "2026-05-26T03:42:43.252968Z",
-      "last_seen_at": "2026-05-26T03:42:43.252968Z",
+      "id": "ca8bc381c1c634b55b6faa1bd1a0349ffbf1629e",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical",
+      "published_at": "2026-05-26T20:46:03Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.5,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI Ethics",
+        "Technology Policy",
+        "Human-Centered Design"
+      ],
+      "ai_target_audience": "UI/UX designers, product managers, and tech leads interested in the ethical implications of AI and its intersection with human values and institutional frameworks.",
+      "ai_key_insights": "The article explores the Vatican's engagement with AI safety company Anthropic to shape an encyclical on AI, highlighting the growing influence of ethical alignment in technology development and the need for designers to embed moral considerations into AI-driven interfaces and user experiences.",
+      "ai_recommendation": "这篇文章揭示了AI安全理念如何影响全球伦理框架，为UI/UX设计师提供了负责任AI交互设计的关键洞察，值得深入阅读。",
+      "title_original": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "title_en": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "title_zh": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲",
+      "title_bilingual": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲 / Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation"
+    },
+    {
+      "id": "ea43a44e9c2c86252619db2881d806162e137945",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+      "url": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved",
+      "published_at": "2026-05-26T15:27:12Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -254,20 +635,271 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.4,
+      "ai_design_relevance": 0.2,
       "ai_quality_score": 7,
       "ai_categories": [
-        "搜索引擎",
-        "产品比较",
-        "数字工具"
+        "cybersecurity",
+        "mystery",
+        "hacking"
       ],
-      "ai_target_audience": "关注数字隐私、厌倦谷歌生态的普通互联网用户，以及对新工具保持好奇的科技爱好者",
-      "ai_key_insights": "梳理了多个非谷歌搜索引擎的特色，从隐私保护、搜索质量、商业模式到社会责任，帮助读者根据个人需求甄选替代品，反映出用户对巨头中心化体验的不满与多元化尝试趋势。",
-      "ai_recommendation": "虽非设计专文，但为设计师提供多种搜索工具的一手体验参考，便于在工作流中做出更自主的选择。",
-      "title_original": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？",
+      "ai_target_audience": "Tech enthusiasts, cybersecurity professionals, and readers interested in unsolved digital mysteries.",
+      "ai_key_insights": "The article explores a persistent, unsolved cybersecurity case involving elusive 'ghost hackers' that bypassed conventional defenses, highlighting gaps in attribution and the sophistication of modern threats.",
+      "ai_recommendation": "这是一篇引人入胜的网络安全谜案报道，激发对未知威胁的思考。",
+      "title_original": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+      "title_en": "Ghost hackers: the cybersecurity mystery that nobody has solved",
+      "title_zh": "幽灵黑客：无人解开的网络安全之谜",
+      "title_bilingual": "幽灵黑客：无人解开的网络安全之谜 / Ghost hackers: the cybersecurity mystery that nobody has solved"
+    },
+    {
+      "id": "af529aa39ef658c40714c96f4992c21c1bf2377b",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.theverge.com",
+      "title": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
+      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
+      "published_at": "2026-05-26T15:09:52.248000Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.3,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "科技商业",
+        "人工智能",
+        "企业战略"
+      ],
+      "ai_target_audience": "关注AI投资回报、企业数字化转型的产品经理、技术高管和商业分析师",
+      "ai_key_insights": "优步CEO对AI巨额投入的质疑折射出行业对AI炒作与实际商业价值落差的反思，提示设计师应关注AI应用的真实用户体验与成本效益，而非盲目追逐技术热点。",
+      "ai_recommendation": "从高管视角审视AI投资的合理性，为设计师提供商业与技术平衡的务实思考。",
+      "title_original": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
       "title_en": null,
-      "title_zh": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？",
-      "title_bilingual": "既然谷歌已不再是曾经的谷歌，有哪些替代的搜索引擎？"
+      "title_zh": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
+      "title_bilingual": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”"
+    },
+    {
+      "id": "4b6723850d73bdbaa5ab4f14cbdd310d7e883567",
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "source": "The Verge：AI（RSS）",
+      "title": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
+      "published_at": "2026-05-26T14:00:00Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI",
+        "搜索体验",
+        "未来趋势"
+      ],
+      "ai_target_audience": "UI/UX 设计师、产品经理、科技行业决策者及对 AI 搜索变革感兴趣的设计师",
+      "ai_key_insights": "Sundar Pichai 深度解读生成式 AI 如何重塑搜索交互、信息呈现方式及互联网内容生态，揭示了从关键词提问到对话式、可视化答案的范式转移，并讨论了网络内容原创性与 AI 生成的平衡。",
+      "ai_recommendation": "谷歌 CEO 亲述 AI 搜索的交互变革，为设计下一代智能界面提供了顶层视角与直接启示。",
+      "title_original": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "title_en": null,
+      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化"
+    },
+    {
+      "id": "95b011a57a6bdb7a9d5efe69c9e961b9329782e8",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "www.theverge.com",
+      "title": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
+      "published_at": "2026-05-26T12:46:03Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 6,
+      "ai_categories": [
+        "AI音乐生成",
+        "用户行为",
+        "数字文化",
+        "用户体验设计"
+      ],
+      "ai_target_audience": "对AI工具、数字内容创作及用户行为变迁感兴趣的设计师、技术观察者与产品经理",
+      "ai_key_insights": "文章探讨了用户沉溺于个人AI生成音乐（Suno slop）的现象，揭示了高度个性化内容如何形成自我参照的消费闭环，挑战了传统音乐平台的内容发现与推荐设计范式。",
+      "ai_recommendation": "这篇文章揭示了AI生成个性化内容如何改变用户消费模式，对设计音乐交互界面的设计师具有启发意义。",
+      "title_original": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "title_en": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "title_zh": "没有人愿意告诉我为什么他们只听自己的 Suno slop",
+      "title_bilingual": "没有人愿意告诉我为什么他们只听自己的 Suno slop / Nobody wants to tell me why they only listen to their own Suno slop"
+    },
+    {
+      "id": "f24c471cc6e70b383e3c7192953e6ddfea845359",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "7 Ways to Get So Good at AI, People Will Think You Are AI",
+      "url": "https://www.wired.com/story/7-ways-to-get-so-good-at-ai-people-will-think-you-are-ai",
+      "published_at": "2026-05-26T10:00:00Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 9,
+      "ai_categories": [
+        "AI & Design",
+        "Productivity",
+        "Technology"
+      ],
+      "ai_target_audience": "Tech-savvy professionals, UI/UX designers, developers, and content creators seeking to master AI tools and integrate them seamlessly into creative and analytical workflows.",
+      "ai_key_insights": "The article offers seven actionable strategies to enhance AI proficiency—such as advanced prompt engineering, output personalization, and workflow automation—making one's AI interactions indistinguishable from truly autonomous intelligence. It emphasizes blending human creativity with machine efficiency to achieve superhuman results, particularly relevant for designers automating repetitive tasks, generating design variations, and refining user experiences with data-driven insights.",
+      "ai_recommendation": "这篇Wired文章揭示了让你用AI出神入化的七个秘诀，设计师能从中获取提升效率与创造力的独特招数，不可错过。",
+      "title_original": "7 Ways to Get So Good at AI, People Will Think You Are AI",
+      "title_en": "7 Ways to Get So Good at AI, People Will Think You Are AI",
+      "title_zh": "7 种方法让你擅长人工智能，让人们认为你是人工智能",
+      "title_bilingual": "7 种方法让你擅长人工智能，让人们认为你是人工智能 / 7 Ways to Get So Good at AI, People Will Think You Are AI"
+    },
+    {
+      "id": "981e96529619b2e3184e5ae60aaa5cc5625ef2d0",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
+      "url": "https://www.wired.com/story/fact-checking-ai",
+      "published_at": "2026-05-26T10:00:00Z",
+      "first_seen_at": "2026-05-27T03:59:05.819252Z",
+      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.6,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "AI & Ethics",
+        "Technology Critique",
+        "Information Design"
+      ],
+      "ai_target_audience": "UI/UX designers and product teams integrating AI-powered content tools, as well as tech professionals who rely on AI-generated information for decision-making.",
+      "ai_key_insights": "AI frequently produces confident but incorrect outputs, posing risks for design decisions that depend on accurate data; fact-checking remains irreplaceable, and designers should treat AI as a flawed collaborator rather than a source of truth, building verification steps into their workflows.",
+      "ai_recommendation": "AI生成内容暗藏大量错误，设计师若直接引用将损害产品可信度，必须建立人工核实环节。",
+      "title_original": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
+      "title_en": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
+      "title_zh": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多",
+      "title_bilingual": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多 / I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"

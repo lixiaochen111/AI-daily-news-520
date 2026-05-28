@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-05-27T03:59:05.819252Z",
+  "generated_at": "2026-05-28T03:47:20.921924Z",
   "window_hours": 24,
-  "total_items": 8,
-  "total_items_ai_raw": 8,
-  "total_items_raw": 2477,
-  "total_items_all_mode": 2326,
+  "total_items": 10,
+  "total_items_ai_raw": 11,
+  "total_items_raw": 3728,
+  "total_items_all_mode": 3453,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 8,
+    "total": 11,
     "tier_0": 0,
-    "tier_1": 8,
+    "tier_1": 11,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2288,
-    "items_after_filter": 8,
-    "filter_pass_rate": "0.3%"
+    "items_before_filter": 2342,
+    "items_after_filter": 11,
+    "filter_pass_rate": "0.5%"
   },
-  "archive_total": 24562,
+  "archive_total": 27129,
   "site_count": 14,
-  "source_count": 6,
+  "source_count": 8,
   "site_stats": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
-      "count": 4,
-      "raw_count": 220
-    },
-    {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 1,
-      "raw_count": 1170
+      "count": 6,
+      "raw_count": 225
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 1,
-      "raw_count": 574
+      "raw_count": 597
+    },
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 1,
+      "raw_count": 324
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 1,
-      "raw_count": 28
+      "raw_count": 33
     },
     {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
+      "site_id": "tophub",
+      "site_name": "TopHub",
       "count": 1,
-      "raw_count": 5
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 20
-    },
-    {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 302
+      "raw_count": 2359
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 69
+      "raw_count": 78
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 40
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 77
+      "raw_count": 57
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 3
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 6
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 6
     },
     {
       "site_id": "aibreakfast",
@@ -108,110 +108,15 @@
   ],
   "items": [
     {
-      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "url": "https://www.uisdc.com/claude-design-2",
-      "published_at": null,
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "UI设计",
-        "AI设计",
-        "设计规范"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品设计师、关注AI与界面融合的设计师",
-      "ai_key_insights": "系统梳理7条Claude Design设计规范，指导设计师在AI+UI场景中提升界面产出质量，强调实用性和规范性。",
-      "ai_recommendation": "为希望将AI能力整合到界面中的设计师提供了具体可落地的设计规范，值得借鉴。",
-      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_en": null,
-      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
-    },
-    {
-      "id": "ca8bc381c1c634b55b6faa1bd1a0349ffbf1629e",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
-      "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical",
-      "published_at": "2026-05-26T20:46:03Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.5,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI Ethics",
-        "Technology Policy",
-        "Human-Centered Design"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, and tech leads interested in the ethical implications of AI and its intersection with human values and institutional frameworks.",
-      "ai_key_insights": "The article explores the Vatican's engagement with AI safety company Anthropic to shape an encyclical on AI, highlighting the growing influence of ethical alignment in technology development and the need for designers to embed moral considerations into AI-driven interfaces and user experiences.",
-      "ai_recommendation": "这篇文章揭示了AI安全理念如何影响全球伦理框架，为UI/UX设计师提供了负责任AI交互设计的关键洞察，值得深入阅读。",
-      "title_original": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
-      "title_en": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
-      "title_zh": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲",
-      "title_bilingual": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲 / Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation"
-    },
-    {
-      "id": "ea43a44e9c2c86252619db2881d806162e137945",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
-      "url": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved",
-      "published_at": "2026-05-26T15:27:12Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "id": "ded79d216880bf5cde8b7021708d68a60b096288",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "techcrunch.com",
+      "title": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
+      "published_at": "2026-05-27T17:17:49.317000Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -237,81 +142,381 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.2,
+      "ai_design_relevance": 0.4,
       "ai_quality_score": 7,
       "ai_categories": [
-        "cybersecurity",
-        "mystery",
-        "hacking"
+        "AI行业观察",
+        "领导力与决策"
       ],
-      "ai_target_audience": "Tech enthusiasts, cybersecurity professionals, and readers interested in unsolved digital mysteries.",
-      "ai_key_insights": "The article explores a persistent, unsolved cybersecurity case involving elusive 'ghost hackers' that bypassed conventional defenses, highlighting gaps in attribution and the sophistication of modern threats.",
-      "ai_recommendation": "这是一篇引人入胜的网络安全谜案报道，激发对未知威胁的思考。",
-      "title_original": "Ghost hackers: the cybersecurity mystery that nobody has solved",
-      "title_en": "Ghost hackers: the cybersecurity mystery that nobody has solved",
-      "title_zh": "幽灵黑客：无人解开的网络安全之谜",
-      "title_bilingual": "幽灵黑客：无人解开的网络安全之谜 / Ghost hackers: the cybersecurity mystery that nobody has solved"
+      "ai_target_audience": "关注科技趋势的产品管理者、AI策略制定者、对CEO决策心理感兴趣的设计师",
+      "ai_key_insights": "文章揭示了科技公司领导层在AI浪潮中普遍存在的认知偏差与过度乐观，反思了技术狂热对产品策略和用户体验可能带来的负面影响，提醒决策者回归用户价值，而非追逐概念。",
+      "ai_recommendation": "用CEO的集体幻觉警示泡沫风险，帮助设计师理解技术预期与用户体验脱节的根源，值得一读。",
+      "title_original": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_en": null,
+      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰"
     },
     {
-      "id": "af529aa39ef658c40714c96f4992c21c1bf2377b",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.theverge.com",
-      "title": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
-      "published_at": "2026-05-26T15:09:52.248000Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "id": "c8d925552a19e3ffb2bce3d6884524e0a5c921c9",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Engadget",
+      "title": "How to get wired internet without running ethernet cables",
+      "url": "https://www.engadget.com/2182061/how-to-get-wired-internet-without-ethernet-cable-in-walls",
+      "published_at": "2026-05-27T15:30:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
+        "id": "wired",
+        "name": "Wired",
         "patterns": [
-          "theverge.com",
-          "The Verge"
+          "wired.com",
+          "Wired"
         ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
         "language": "en",
         "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
+          "AI应用",
+          "设计趋势",
+          "创意科技"
         ],
         "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
+          "纯政治",
+          "安全政策",
+          "科学理论"
         ],
-        "max_items_per_day": 50
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Technology Guides",
+        "Home Networking",
+        "Consumer Electronics"
+      ],
+      "ai_target_audience": "Tech-savvy homeowners, remote workers, online gamers, and general consumers looking to improve home network stability without extensive cabling.",
+      "ai_key_insights": "Explores alternatives like MoCA adapters, powerline networking, and Wi-Fi extenders to achieve wired-like connectivity; details pros/cons, setup steps, and performance considerations for non-Ethernet wired solutions.",
+      "ai_recommendation": "对于需要稳定高速网络但无法铺设网线的用户，这篇指南清晰对比了电力猫和同轴电缆方案，实用性极强。",
+      "title_original": "How to get wired internet without running ethernet cables",
+      "title_en": "How to get wired internet without running ethernet cables",
+      "title_zh": "如何在不运行以太网电缆的情况下获得有线互联网",
+      "title_bilingual": "如何在不运行以太网电缆的情况下获得有线互联网 / How to get wired internet without running ethernet cables"
+    },
+    {
+      "id": "01777e31307669a74b98606d4132ea85b86ca320",
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "Hacker News (黑客新闻)",
+      "title": "Tech CEOs are apparently suffering from AI psychosis",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
+      "published_at": "2026-05-27T15:20:47Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI ethics",
+        "product strategy",
+        "technology critique"
+      ],
+      "ai_target_audience": "UI/UX designers and product managers navigating AI-hype driven decisions from leadership",
+      "ai_key_insights": "Executives are increasingly imposing AI features without user-centered validation, creating a gap between technological possibility and actual design value; this can lead to poor user experiences and wasted resources. The article highlights the need for designers to ground AI implementation in real-world utility.",
+      "ai_recommendation": "这篇内容深入揭露了高管AI妄想对产品设计的冲击，提醒设计师警惕技术追捧而忽视用户真实需求的风险。",
+      "title_original": "Tech CEOs are apparently suffering from AI psychosis",
+      "title_en": "Tech CEOs are apparently suffering from AI psychosis",
+      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰 / Tech CEOs are apparently suffering from AI psychosis"
+    },
+    {
+      "id": "e75c3f6af684661f7a42dc6138e674c49ad4c9a5",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic",
+      "url": "https://www.wired.com/story/drone-ports-and-funding-mayhem-trumps-ballroom-takes-on-congress",
+      "published_at": "2026-05-27T15:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "technologie",
+        "politique",
+        "affaires"
+      ],
+      "ai_target_audience": "lecteurs de Wired intéressés par l'intersection entre technologie, financement gouvernemental et climat politique sous Trump",
+      "ai_key_insights": "L'article examine comment les promesses de ports pour drones et les incertitudes de financement créent un environnement toxique, mêlant enjeux technologiques et chaos politique.",
+      "ai_recommendation": "虽设计关联有限，但以无人机港为案例揭示了政策动荡如何影响科技落地，为理解技术生态提供宏观视角。",
+      "title_original": "Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic",
+      "title_en": "Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic",
+      "title_zh": "无人机端口和资金混乱：特朗普的舞厅已变得有毒",
+      "title_bilingual": "无人机端口和资金混乱：特朗普的舞厅已变得有毒 / Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic"
+    },
+    {
+      "id": "9f2e0068d04826b4858db1e8e3d17f6648a00c98",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "ElevenLabs’s new music generation model can switch genres mid-track",
+      "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track",
+      "published_at": "2026-05-27T14:14:10Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
       },
       "ai_design_relevance": 0.3,
       "ai_quality_score": 7,
       "ai_categories": [
-        "科技商业",
-        "人工智能",
-        "企业战略"
+        "Artificial Intelligence",
+        "Music Technology",
+        "Creative Tools"
       ],
-      "ai_target_audience": "关注AI投资回报、企业数字化转型的产品经理、技术高管和商业分析师",
-      "ai_key_insights": "优步CEO对AI巨额投入的质疑折射出行业对AI炒作与实际商业价值落差的反思，提示设计师应关注AI应用的真实用户体验与成本效益，而非盲目追逐技术热点。",
-      "ai_recommendation": "从高管视角审视AI投资的合理性，为设计师提供商业与技术平衡的务实思考。",
-      "title_original": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_en": null,
-      "title_zh": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_bilingual": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”"
+      "ai_target_audience": "Tech enthusiasts, music producers, AI researchers, and creative professionals interested in the intersection of generative AI and audio.",
+      "ai_key_insights": "ElevenLabs expands from voice synthesis into music generation with a model that can dynamically switch genres mid-track, demonstrating multimodal AI advances and opening new possibilities for adaptive soundtracks and interactive media.",
+      "ai_recommendation": "这篇报道展示了AI音乐生成的最新交互可能性，为设计动态音频界面或沉浸式体验的设计师提供了前沿技术启发。",
+      "title_original": "ElevenLabs’s new music generation model can switch genres mid-track",
+      "title_en": "ElevenLabs’s new music generation model can switch genres mid-track",
+      "title_zh": "ElevenLabs 的新音乐生成模型可以在中途切换流派",
+      "title_bilingual": "ElevenLabs 的新音乐生成模型可以在中途切换流派 / ElevenLabs’s new music generation model can switch genres mid-track"
     },
     {
-      "id": "4b6723850d73bdbaa5ab4f14cbdd310d7e883567",
+      "id": "78af32d8da81bb360cf224774fb2de63acaf5a76",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "This smart bird feeder captures more of my backyard drama",
+      "url": "https://www.theverge.com/tech/937628/coolfly-aura-smart-bird-feeder-review",
+      "published_at": "2026-05-27T14:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "Smart Home",
+        "Tech Review",
+        "IoT",
+        "Product Design"
+      ],
+      "ai_target_audience": "Tech-savvy homeowners, smart home enthusiasts, bird watchers, and UI/UX designers interested in IoT product experiences.",
+      "ai_key_insights": "The article highlights how a smart bird feeder's camera, AI identification, and companion app transform backyard birdwatching. It emphasizes user experience details such as motion detection accuracy, notification relevance, app interface usability, and data privacy considerations, offering practical insights for designing consumer IoT devices.",
+      "ai_recommendation": "这篇文章深入剖析了智能观鸟器的交互设计与用户体验，为设计师提供了关于物联网产品情感化设计和日常场景融合的鲜活案例。",
+      "title_original": "This smart bird feeder captures more of my backyard drama",
+      "title_en": "This smart bird feeder captures more of my backyard drama",
+      "title_zh": "这款智能喂鸟器捕捉到了我后院的更多戏剧",
+      "title_bilingual": "这款智能喂鸟器捕捉到了我后院的更多戏剧 / This smart bird feeder captures more of my backyard drama"
+    },
+    {
+      "id": "b5605b197b1e900d17945e32eeca2c70951a743b",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes",
+      "url": "https://www.wired.com/story/xreal-expands-xbx-its-extra-light-smart-specs",
+      "published_at": "2026-05-27T13:54:48Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Wearable Technology",
+        "Gaming UX",
+        "UI/UX Design"
+      ],
+      "ai_target_audience": "UI/UX designers and product developers interested in spatial computing, gaming interfaces, and emerging wearable display design.",
+      "ai_key_insights": "Xreal's xbx glasses merge Xbox-inspired aesthetics with consumer AR technology, offering a $299 head-worn display that projects a virtual screen. This creates new UX challenges around field-of-view comfort, spatial anchoring, and controller integration, while hinting at console-level immersion in a lightweight form factor.",
+      "ai_recommendation": "文章揭示Xbox风格AR眼镜在游戏界面与穿戴体验上的设计融合，为UI/UX设计师提供虚实交互新思路与平价硬件参考。",
+      "title_original": "Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes",
+      "title_en": "Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes",
+      "title_zh": "Xreal 售价 299 美元的新款“xbx”智能眼镜频道 Xbox Vibes",
+      "title_bilingual": "Xreal 售价 299 美元的新款“xbx”智能眼镜频道 Xbox Vibes / Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes"
+    },
+    {
+      "id": "cd2650a4b817685cb61bcae251e5bc9df7499c3e",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "YouTube is putting AI labels where you’ll actually see them",
+      "url": "https://www.theverge.com/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates",
+      "published_at": "2026-05-27T13:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI transparency",
+        "UI/UX design",
+        "content labeling"
+      ],
+      "ai_target_audience": "UI/UX designers, product managers, and technologists interested in how platforms handle AI content disclosure through thoughtful interface design.",
+      "ai_key_insights": "YouTube’s new AI labels are being placed in prominent, user-visible locations (e.g., directly on the video player or description expander) rather than hidden in menus, reflecting a design strategy that prioritizes transparency and immediate recognition. The article likely details placement choices, user trust considerations, and how visual hierarchy affects noticeability, offering a concrete case study in designing for AI disclosure without disrupting the viewing experience.",
+      "ai_recommendation": "该文章揭示了YouTube如何通过将AI标签置于用户视线自然停留处来提升透明度的界面设计策略，为处理敏感信息展示提供了可借鉴的布局与视觉层级思路。",
+      "title_original": "YouTube is putting AI labels where you’ll actually see them",
+      "title_en": "YouTube is putting AI labels where you’ll actually see them",
+      "title_zh": "YouTube 将人工智能标签放在您实际看到的地方",
+      "title_bilingual": "YouTube 将人工智能标签放在您实际看到的地方 / YouTube is putting AI labels where you’ll actually see them"
+    },
+    {
+      "id": "6ece27560d82319d6e36a44aa29cd82d14f0f182",
       "site_id": "aihot",
       "site_name": "AI HOT",
       "source": "The Verge：AI（RSS）",
-      "title": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "published_at": "2026-05-26T14:00:00Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "title": "教皇没对AGI上头",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
+      "published_at": "2026-05-27T12:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -337,279 +542,49 @@
         ],
         "max_items_per_day": 50
       },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 8,
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 7,
       "ai_categories": [
-        "AI",
-        "搜索体验",
-        "未来趋势"
+        "技术伦理",
+        "社会争议",
+        "人工智能"
       ],
-      "ai_target_audience": "UI/UX 设计师、产品经理、科技行业决策者及对 AI 搜索变革感兴趣的设计师",
-      "ai_key_insights": "Sundar Pichai 深度解读生成式 AI 如何重塑搜索交互、信息呈现方式及互联网内容生态，揭示了从关键词提问到对话式、可视化答案的范式转移，并讨论了网络内容原创性与 AI 生成的平衡。",
-      "ai_recommendation": "谷歌 CEO 亲述 AI 搜索的交互变革，为设计下一代智能界面提供了顶层视角与直接启示。",
-      "title_original": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "ai_target_audience": "关注AI伦理与社会影响的科技从业者、政策观察者及对梵蒂冈立场感兴趣的读者",
+      "ai_key_insights": "教皇方济各在G7峰会上关于AI的发言重点在于伦理与人文关怀，而非技术狂热，强调AI需服务于人类尊严和共同福祉，并非无条件拥抱AGI。",
+      "ai_recommendation": "这篇短文帮你跳出技术泡沫，从全球宗教领袖视角冷静审视AGI的伦理边界，适合设计伦理思考。",
+      "title_original": "教皇没对AGI上头",
       "title_en": null,
-      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化"
+      "title_zh": "教皇没对AGI上头",
+      "title_bilingual": "教皇没对AGI上头"
     },
     {
-      "id": "95b011a57a6bdb7a9d5efe69c9e961b9329782e8",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "www.theverge.com",
-      "title": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
-      "published_at": "2026-05-26T12:46:03Z",
+      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "url": "https://www.uisdc.com/claude-design-2",
+      "published_at": null,
       "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 6,
-      "ai_categories": [
-        "AI音乐生成",
-        "用户行为",
-        "数字文化",
-        "用户体验设计"
-      ],
-      "ai_target_audience": "对AI工具、数字内容创作及用户行为变迁感兴趣的设计师、技术观察者与产品经理",
-      "ai_key_insights": "文章探讨了用户沉溺于个人AI生成音乐（Suno slop）的现象，揭示了高度个性化内容如何形成自我参照的消费闭环，挑战了传统音乐平台的内容发现与推荐设计范式。",
-      "ai_recommendation": "这篇文章揭示了AI生成个性化内容如何改变用户消费模式，对设计音乐交互界面的设计师具有启发意义。",
-      "title_original": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "title_en": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "title_zh": "没有人愿意告诉我为什么他们只听自己的 Suno slop",
-      "title_bilingual": "没有人愿意告诉我为什么他们只听自己的 Suno slop / Nobody wants to tell me why they only listen to their own Suno slop"
-    },
-    {
-      "id": "f24c471cc6e70b383e3c7192953e6ddfea845359",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "7 Ways to Get So Good at AI, People Will Think You Are AI",
-      "url": "https://www.wired.com/story/7-ways-to-get-so-good-at-ai-people-will-think-you-are-ai",
-      "published_at": "2026-05-26T10:00:00Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 9,
-      "ai_categories": [
-        "AI & Design",
-        "Productivity",
-        "Technology"
-      ],
-      "ai_target_audience": "Tech-savvy professionals, UI/UX designers, developers, and content creators seeking to master AI tools and integrate them seamlessly into creative and analytical workflows.",
-      "ai_key_insights": "The article offers seven actionable strategies to enhance AI proficiency—such as advanced prompt engineering, output personalization, and workflow automation—making one's AI interactions indistinguishable from truly autonomous intelligence. It emphasizes blending human creativity with machine efficiency to achieve superhuman results, particularly relevant for designers automating repetitive tasks, generating design variations, and refining user experiences with data-driven insights.",
-      "ai_recommendation": "这篇Wired文章揭示了让你用AI出神入化的七个秘诀，设计师能从中获取提升效率与创造力的独特招数，不可错过。",
-      "title_original": "7 Ways to Get So Good at AI, People Will Think You Are AI",
-      "title_en": "7 Ways to Get So Good at AI, People Will Think You Are AI",
-      "title_zh": "7 种方法让你擅长人工智能，让人们认为你是人工智能",
-      "title_bilingual": "7 种方法让你擅长人工智能，让人们认为你是人工智能 / 7 Ways to Get So Good at AI, People Will Think You Are AI"
-    },
-    {
-      "id": "981e96529619b2e3184e5ae60aaa5cc5625ef2d0",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "url": "https://www.wired.com/story/fact-checking-ai",
-      "published_at": "2026-05-26T10:00:00Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.6,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI & Ethics",
-        "Technology Critique",
-        "Information Design"
-      ],
-      "ai_target_audience": "UI/UX designers and product teams integrating AI-powered content tools, as well as tech professionals who rely on AI-generated information for decision-making.",
-      "ai_key_insights": "AI frequently produces confident but incorrect outputs, posing risks for design decisions that depend on accurate data; fact-checking remains irreplaceable, and designers should treat AI as a flawed collaborator rather than a source of truth, building verification steps into their workflows.",
-      "ai_recommendation": "AI生成内容暗藏大量错误，设计师若直接引用将损害产品可信度，必须建立人工核实环节。",
-      "title_original": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_en": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_zh": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多",
-      "title_bilingual": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多 / I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think"
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "ai_filtered": true,
+      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "title_en": null,
+      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
     }
   ],
   "items_ai": [
     {
-      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "url": "https://www.uisdc.com/claude-design-2",
-      "published_at": null,
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "UI设计",
-        "AI设计",
-        "设计规范"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品设计师、关注AI与界面融合的设计师",
-      "ai_key_insights": "系统梳理7条Claude Design设计规范，指导设计师在AI+UI场景中提升界面产出质量，强调实用性和规范性。",
-      "ai_recommendation": "为希望将AI能力整合到界面中的设计师提供了具体可落地的设计规范，值得借鉴。",
-      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_en": null,
-      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
-    },
-    {
-      "id": "ca8bc381c1c634b55b6faa1bd1a0349ffbf1629e",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
-      "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical",
-      "published_at": "2026-05-26T20:46:03Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.5,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI Ethics",
-        "Technology Policy",
-        "Human-Centered Design"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, and tech leads interested in the ethical implications of AI and its intersection with human values and institutional frameworks.",
-      "ai_key_insights": "The article explores the Vatican's engagement with AI safety company Anthropic to shape an encyclical on AI, highlighting the growing influence of ethical alignment in technology development and the need for designers to embed moral considerations into AI-driven interfaces and user experiences.",
-      "ai_recommendation": "这篇文章揭示了AI安全理念如何影响全球伦理框架，为UI/UX设计师提供了负责任AI交互设计的关键洞察，值得深入阅读。",
-      "title_original": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
-      "title_en": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
-      "title_zh": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲",
-      "title_bilingual": "为什么梵蒂冈邀请人类参加教皇的人工智能通谕演讲 / Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation"
-    },
-    {
-      "id": "ea43a44e9c2c86252619db2881d806162e137945",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Ghost hackers: the cybersecurity mystery that nobody has solved",
-      "url": "https://techcrunch.com/2026/05/26/ghost-hackers-the-cybersecurity-mystery-that-nobody-has-solved",
-      "published_at": "2026-05-26T15:27:12Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "id": "ded79d216880bf5cde8b7021708d68a60b096288",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "techcrunch.com",
+      "title": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
+      "published_at": "2026-05-27T17:17:49.317000Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -635,81 +610,381 @@
         ],
         "max_items_per_day": 30
       },
-      "ai_design_relevance": 0.2,
+      "ai_design_relevance": 0.4,
       "ai_quality_score": 7,
       "ai_categories": [
-        "cybersecurity",
-        "mystery",
-        "hacking"
+        "AI行业观察",
+        "领导力与决策"
       ],
-      "ai_target_audience": "Tech enthusiasts, cybersecurity professionals, and readers interested in unsolved digital mysteries.",
-      "ai_key_insights": "The article explores a persistent, unsolved cybersecurity case involving elusive 'ghost hackers' that bypassed conventional defenses, highlighting gaps in attribution and the sophistication of modern threats.",
-      "ai_recommendation": "这是一篇引人入胜的网络安全谜案报道，激发对未知威胁的思考。",
-      "title_original": "Ghost hackers: the cybersecurity mystery that nobody has solved",
-      "title_en": "Ghost hackers: the cybersecurity mystery that nobody has solved",
-      "title_zh": "幽灵黑客：无人解开的网络安全之谜",
-      "title_bilingual": "幽灵黑客：无人解开的网络安全之谜 / Ghost hackers: the cybersecurity mystery that nobody has solved"
+      "ai_target_audience": "关注科技趋势的产品管理者、AI策略制定者、对CEO决策心理感兴趣的设计师",
+      "ai_key_insights": "文章揭示了科技公司领导层在AI浪潮中普遍存在的认知偏差与过度乐观，反思了技术狂热对产品策略和用户体验可能带来的负面影响，提醒决策者回归用户价值，而非追逐概念。",
+      "ai_recommendation": "用CEO的集体幻觉警示泡沫风险，帮助设计师理解技术预期与用户体验脱节的根源，值得一读。",
+      "title_original": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_en": null,
+      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰"
     },
     {
-      "id": "af529aa39ef658c40714c96f4992c21c1bf2377b",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.theverge.com",
-      "title": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
-      "published_at": "2026-05-26T15:09:52.248000Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "id": "c8d925552a19e3ffb2bce3d6884524e0a5c921c9",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Engadget",
+      "title": "How to get wired internet without running ethernet cables",
+      "url": "https://www.engadget.com/2182061/how-to-get-wired-internet-without-ethernet-cable-in-walls",
+      "published_at": "2026-05-27T15:30:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
+        "id": "wired",
+        "name": "Wired",
         "patterns": [
-          "theverge.com",
-          "The Verge"
+          "wired.com",
+          "Wired"
         ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
         "language": "en",
         "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
+          "AI应用",
+          "设计趋势",
+          "创意科技"
         ],
         "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
+          "纯政治",
+          "安全政策",
+          "科学理论"
         ],
-        "max_items_per_day": 50
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Technology Guides",
+        "Home Networking",
+        "Consumer Electronics"
+      ],
+      "ai_target_audience": "Tech-savvy homeowners, remote workers, online gamers, and general consumers looking to improve home network stability without extensive cabling.",
+      "ai_key_insights": "Explores alternatives like MoCA adapters, powerline networking, and Wi-Fi extenders to achieve wired-like connectivity; details pros/cons, setup steps, and performance considerations for non-Ethernet wired solutions.",
+      "ai_recommendation": "对于需要稳定高速网络但无法铺设网线的用户，这篇指南清晰对比了电力猫和同轴电缆方案，实用性极强。",
+      "title_original": "How to get wired internet without running ethernet cables",
+      "title_en": "How to get wired internet without running ethernet cables",
+      "title_zh": "如何在不运行以太网电缆的情况下获得有线互联网",
+      "title_bilingual": "如何在不运行以太网电缆的情况下获得有线互联网 / How to get wired internet without running ethernet cables"
+    },
+    {
+      "id": "01777e31307669a74b98606d4132ea85b86ca320",
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "source": "Hacker News (黑客新闻)",
+      "title": "Tech CEOs are apparently suffering from AI psychosis",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
+      "published_at": "2026-05-27T15:20:47Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI ethics",
+        "product strategy",
+        "technology critique"
+      ],
+      "ai_target_audience": "UI/UX designers and product managers navigating AI-hype driven decisions from leadership",
+      "ai_key_insights": "Executives are increasingly imposing AI features without user-centered validation, creating a gap between technological possibility and actual design value; this can lead to poor user experiences and wasted resources. The article highlights the need for designers to ground AI implementation in real-world utility.",
+      "ai_recommendation": "这篇内容深入揭露了高管AI妄想对产品设计的冲击，提醒设计师警惕技术追捧而忽视用户真实需求的风险。",
+      "title_original": "Tech CEOs are apparently suffering from AI psychosis",
+      "title_en": "Tech CEOs are apparently suffering from AI psychosis",
+      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰 / Tech CEOs are apparently suffering from AI psychosis"
+    },
+    {
+      "id": "e75c3f6af684661f7a42dc6138e674c49ad4c9a5",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic",
+      "url": "https://www.wired.com/story/drone-ports-and-funding-mayhem-trumps-ballroom-takes-on-congress",
+      "published_at": "2026-05-27T15:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "technologie",
+        "politique",
+        "affaires"
+      ],
+      "ai_target_audience": "lecteurs de Wired intéressés par l'intersection entre technologie, financement gouvernemental et climat politique sous Trump",
+      "ai_key_insights": "L'article examine comment les promesses de ports pour drones et les incertitudes de financement créent un environnement toxique, mêlant enjeux technologiques et chaos politique.",
+      "ai_recommendation": "虽设计关联有限，但以无人机港为案例揭示了政策动荡如何影响科技落地，为理解技术生态提供宏观视角。",
+      "title_original": "Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic",
+      "title_en": "Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic",
+      "title_zh": "无人机端口和资金混乱：特朗普的舞厅已变得有毒",
+      "title_bilingual": "无人机端口和资金混乱：特朗普的舞厅已变得有毒 / Drone Ports and Funding Mayhem: Trump's Ballroom Has Turned Toxic"
+    },
+    {
+      "id": "9f2e0068d04826b4858db1e8e3d17f6648a00c98",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "ElevenLabs’s new music generation model can switch genres mid-track",
+      "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track",
+      "published_at": "2026-05-27T14:14:10Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
       },
       "ai_design_relevance": 0.3,
       "ai_quality_score": 7,
       "ai_categories": [
-        "科技商业",
-        "人工智能",
-        "企业战略"
+        "Artificial Intelligence",
+        "Music Technology",
+        "Creative Tools"
       ],
-      "ai_target_audience": "关注AI投资回报、企业数字化转型的产品经理、技术高管和商业分析师",
-      "ai_key_insights": "优步CEO对AI巨额投入的质疑折射出行业对AI炒作与实际商业价值落差的反思，提示设计师应关注AI应用的真实用户体验与成本效益，而非盲目追逐技术热点。",
-      "ai_recommendation": "从高管视角审视AI投资的合理性，为设计师提供商业与技术平衡的务实思考。",
-      "title_original": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_en": null,
-      "title_zh": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_bilingual": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”"
+      "ai_target_audience": "Tech enthusiasts, music producers, AI researchers, and creative professionals interested in the intersection of generative AI and audio.",
+      "ai_key_insights": "ElevenLabs expands from voice synthesis into music generation with a model that can dynamically switch genres mid-track, demonstrating multimodal AI advances and opening new possibilities for adaptive soundtracks and interactive media.",
+      "ai_recommendation": "这篇报道展示了AI音乐生成的最新交互可能性，为设计动态音频界面或沉浸式体验的设计师提供了前沿技术启发。",
+      "title_original": "ElevenLabs’s new music generation model can switch genres mid-track",
+      "title_en": "ElevenLabs’s new music generation model can switch genres mid-track",
+      "title_zh": "ElevenLabs 的新音乐生成模型可以在中途切换流派",
+      "title_bilingual": "ElevenLabs 的新音乐生成模型可以在中途切换流派 / ElevenLabs’s new music generation model can switch genres mid-track"
     },
     {
-      "id": "4b6723850d73bdbaa5ab4f14cbdd310d7e883567",
+      "id": "78af32d8da81bb360cf224774fb2de63acaf5a76",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "This smart bird feeder captures more of my backyard drama",
+      "url": "https://www.theverge.com/tech/937628/coolfly-aura-smart-bird-feeder-review",
+      "published_at": "2026-05-27T14:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 8,
+      "ai_categories": [
+        "Smart Home",
+        "Tech Review",
+        "IoT",
+        "Product Design"
+      ],
+      "ai_target_audience": "Tech-savvy homeowners, smart home enthusiasts, bird watchers, and UI/UX designers interested in IoT product experiences.",
+      "ai_key_insights": "The article highlights how a smart bird feeder's camera, AI identification, and companion app transform backyard birdwatching. It emphasizes user experience details such as motion detection accuracy, notification relevance, app interface usability, and data privacy considerations, offering practical insights for designing consumer IoT devices.",
+      "ai_recommendation": "这篇文章深入剖析了智能观鸟器的交互设计与用户体验，为设计师提供了关于物联网产品情感化设计和日常场景融合的鲜活案例。",
+      "title_original": "This smart bird feeder captures more of my backyard drama",
+      "title_en": "This smart bird feeder captures more of my backyard drama",
+      "title_zh": "这款智能喂鸟器捕捉到了我后院的更多戏剧",
+      "title_bilingual": "这款智能喂鸟器捕捉到了我后院的更多戏剧 / This smart bird feeder captures more of my backyard drama"
+    },
+    {
+      "id": "b5605b197b1e900d17945e32eeca2c70951a743b",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Wired",
+      "title": "Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes",
+      "url": "https://www.wired.com/story/xreal-expands-xbx-its-extra-light-smart-specs",
+      "published_at": "2026-05-27T13:54:48Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "wired",
+        "name": "Wired",
+        "patterns": [
+          "wired.com",
+          "Wired"
+        ],
+        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "update_frequency": "daily",
+        "expected_items_per_day": 20,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI应用",
+          "设计趋势",
+          "创意科技"
+        ],
+        "exclude_topics": [
+          "纯政治",
+          "安全政策",
+          "科学理论"
+        ],
+        "max_items_per_day": 20
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Wearable Technology",
+        "Gaming UX",
+        "UI/UX Design"
+      ],
+      "ai_target_audience": "UI/UX designers and product developers interested in spatial computing, gaming interfaces, and emerging wearable display design.",
+      "ai_key_insights": "Xreal's xbx glasses merge Xbox-inspired aesthetics with consumer AR technology, offering a $299 head-worn display that projects a virtual screen. This creates new UX challenges around field-of-view comfort, spatial anchoring, and controller integration, while hinting at console-level immersion in a lightweight form factor.",
+      "ai_recommendation": "文章揭示Xbox风格AR眼镜在游戏界面与穿戴体验上的设计融合，为UI/UX设计师提供虚实交互新思路与平价硬件参考。",
+      "title_original": "Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes",
+      "title_en": "Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes",
+      "title_zh": "Xreal 售价 299 美元的新款“xbx”智能眼镜频道 Xbox Vibes",
+      "title_bilingual": "Xreal 售价 299 美元的新款“xbx”智能眼镜频道 Xbox Vibes / Xreal’s New $299 ‘xbx’ Smart Glasses Channel Xbox Vibes"
+    },
+    {
+      "id": "cd2650a4b817685cb61bcae251e5bc9df7499c3e",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "The Verge",
+      "title": "YouTube is putting AI labels where you’ll actually see them",
+      "url": "https://www.theverge.com/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates",
+      "published_at": "2026-05-27T13:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "the_verge",
+        "name": "The Verge",
+        "patterns": [
+          "theverge.com",
+          "The Verge"
+        ],
+        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 50,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI产品",
+          "设计工具",
+          "创意应用"
+        ],
+        "exclude_topics": [
+          "纯硬件评测",
+          "游戏",
+          "娱乐八卦"
+        ],
+        "max_items_per_day": 50
+      },
+      "ai_design_relevance": 0.8,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "AI transparency",
+        "UI/UX design",
+        "content labeling"
+      ],
+      "ai_target_audience": "UI/UX designers, product managers, and technologists interested in how platforms handle AI content disclosure through thoughtful interface design.",
+      "ai_key_insights": "YouTube’s new AI labels are being placed in prominent, user-visible locations (e.g., directly on the video player or description expander) rather than hidden in menus, reflecting a design strategy that prioritizes transparency and immediate recognition. The article likely details placement choices, user trust considerations, and how visual hierarchy affects noticeability, offering a concrete case study in designing for AI disclosure without disrupting the viewing experience.",
+      "ai_recommendation": "该文章揭示了YouTube如何通过将AI标签置于用户视线自然停留处来提升透明度的界面设计策略，为处理敏感信息展示提供了可借鉴的布局与视觉层级思路。",
+      "title_original": "YouTube is putting AI labels where you’ll actually see them",
+      "title_en": "YouTube is putting AI labels where you’ll actually see them",
+      "title_zh": "YouTube 将人工智能标签放在您实际看到的地方",
+      "title_bilingual": "YouTube 将人工智能标签放在您实际看到的地方 / YouTube is putting AI labels where you’ll actually see them"
+    },
+    {
+      "id": "6ece27560d82319d6e36a44aa29cd82d14f0f182",
       "site_id": "aihot",
       "site_name": "AI HOT",
       "source": "The Verge：AI（RSS）",
-      "title": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "published_at": "2026-05-26T14:00:00Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
+      "title": "教皇没对AGI上头",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
+      "published_at": "2026-05-27T12:00:00Z",
+      "first_seen_at": "2026-05-28T03:47:20.921924Z",
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
       "_tier": 1,
       "ai_tier": 1,
       "_source_config": {
@@ -735,171 +1010,36 @@
         ],
         "max_items_per_day": 50
       },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 8,
+      "ai_design_relevance": 0.2,
+      "ai_quality_score": 7,
       "ai_categories": [
-        "AI",
-        "搜索体验",
-        "未来趋势"
+        "技术伦理",
+        "社会争议",
+        "人工智能"
       ],
-      "ai_target_audience": "UI/UX 设计师、产品经理、科技行业决策者及对 AI 搜索变革感兴趣的设计师",
-      "ai_key_insights": "Sundar Pichai 深度解读生成式 AI 如何重塑搜索交互、信息呈现方式及互联网内容生态，揭示了从关键词提问到对话式、可视化答案的范式转移，并讨论了网络内容原创性与 AI 生成的平衡。",
-      "ai_recommendation": "谷歌 CEO 亲述 AI 搜索的交互变革，为设计下一代智能界面提供了顶层视角与直接启示。",
-      "title_original": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
+      "ai_target_audience": "关注AI伦理与社会影响的科技从业者、政策观察者及对梵蒂冈立场感兴趣的读者",
+      "ai_key_insights": "教皇方济各在G7峰会上关于AI的发言重点在于伦理与人文关怀，而非技术狂热，强调AI需服务于人类尊严和共同福祉，并非无条件拥抱AGI。",
+      "ai_recommendation": "这篇短文帮你跳出技术泡沫，从全球宗教领袖视角冷静审视AGI的伦理边界，适合设计伦理思考。",
+      "title_original": "教皇没对AGI上头",
       "title_en": null,
-      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化"
+      "title_zh": "教皇没对AGI上头",
+      "title_bilingual": "教皇没对AGI上头"
     },
     {
-      "id": "95b011a57a6bdb7a9d5efe69c9e961b9329782e8",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "www.theverge.com",
-      "title": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
-      "published_at": "2026-05-26T12:46:03Z",
+      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "优设网 · 每日热文榜单",
+      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "url": "https://www.uisdc.com/claude-design-2",
+      "published_at": null,
       "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 6,
-      "ai_categories": [
-        "AI音乐生成",
-        "用户行为",
-        "数字文化",
-        "用户体验设计"
-      ],
-      "ai_target_audience": "对AI工具、数字内容创作及用户行为变迁感兴趣的设计师、技术观察者与产品经理",
-      "ai_key_insights": "文章探讨了用户沉溺于个人AI生成音乐（Suno slop）的现象，揭示了高度个性化内容如何形成自我参照的消费闭环，挑战了传统音乐平台的内容发现与推荐设计范式。",
-      "ai_recommendation": "这篇文章揭示了AI生成个性化内容如何改变用户消费模式，对设计音乐交互界面的设计师具有启发意义。",
-      "title_original": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "title_en": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "title_zh": "没有人愿意告诉我为什么他们只听自己的 Suno slop",
-      "title_bilingual": "没有人愿意告诉我为什么他们只听自己的 Suno slop / Nobody wants to tell me why they only listen to their own Suno slop"
-    },
-    {
-      "id": "f24c471cc6e70b383e3c7192953e6ddfea845359",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "7 Ways to Get So Good at AI, People Will Think You Are AI",
-      "url": "https://www.wired.com/story/7-ways-to-get-so-good-at-ai-people-will-think-you-are-ai",
-      "published_at": "2026-05-26T10:00:00Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 9,
-      "ai_categories": [
-        "AI & Design",
-        "Productivity",
-        "Technology"
-      ],
-      "ai_target_audience": "Tech-savvy professionals, UI/UX designers, developers, and content creators seeking to master AI tools and integrate them seamlessly into creative and analytical workflows.",
-      "ai_key_insights": "The article offers seven actionable strategies to enhance AI proficiency—such as advanced prompt engineering, output personalization, and workflow automation—making one's AI interactions indistinguishable from truly autonomous intelligence. It emphasizes blending human creativity with machine efficiency to achieve superhuman results, particularly relevant for designers automating repetitive tasks, generating design variations, and refining user experiences with data-driven insights.",
-      "ai_recommendation": "这篇Wired文章揭示了让你用AI出神入化的七个秘诀，设计师能从中获取提升效率与创造力的独特招数，不可错过。",
-      "title_original": "7 Ways to Get So Good at AI, People Will Think You Are AI",
-      "title_en": "7 Ways to Get So Good at AI, People Will Think You Are AI",
-      "title_zh": "7 种方法让你擅长人工智能，让人们认为你是人工智能",
-      "title_bilingual": "7 种方法让你擅长人工智能，让人们认为你是人工智能 / 7 Ways to Get So Good at AI, People Will Think You Are AI"
-    },
-    {
-      "id": "981e96529619b2e3184e5ae60aaa5cc5625ef2d0",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "url": "https://www.wired.com/story/fact-checking-ai",
-      "published_at": "2026-05-26T10:00:00Z",
-      "first_seen_at": "2026-05-27T03:59:05.819252Z",
-      "last_seen_at": "2026-05-27T03:59:05.819252Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.6,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI & Ethics",
-        "Technology Critique",
-        "Information Design"
-      ],
-      "ai_target_audience": "UI/UX designers and product teams integrating AI-powered content tools, as well as tech professionals who rely on AI-generated information for decision-making.",
-      "ai_key_insights": "AI frequently produces confident but incorrect outputs, posing risks for design decisions that depend on accurate data; fact-checking remains irreplaceable, and designers should treat AI as a flawed collaborator rather than a source of truth, building verification steps into their workflows.",
-      "ai_recommendation": "AI生成内容暗藏大量错误，设计师若直接引用将损害产品可信度，必须建立人工核实环节。",
-      "title_original": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_en": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_zh": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多",
-      "title_bilingual": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多 / I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think"
+      "last_seen_at": "2026-05-28T03:47:20.921924Z",
+      "ai_filtered": true,
+      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "title_en": null,
+      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
+      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"

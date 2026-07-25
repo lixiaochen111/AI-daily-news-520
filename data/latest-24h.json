@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-07-24T02:45:57.345584Z",
+  "generated_at": "2026-07-25T02:44:39.828020Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 3699,
-  "total_items_all_mode": 3359,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3613,
+  "total_items_all_mode": 3337,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2318,
-    "items_after_filter": 1,
+    "items_before_filter": 2261,
+    "items_after_filter": 0,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 54616,
+  "archive_total": 54805,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 1,
-      "raw_count": 232
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 73
+    },
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 270
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 2329
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 40
+      "raw_count": 2342
     },
     {
       "site_id": "aihubtoday",
@@ -46,52 +46,52 @@
       "raw_count": 2
     },
     {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 284
-    },
-    {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 611
+      "raw_count": 554
     },
     {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 90
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 74
+      "raw_count": 230
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 16
+      "raw_count": 14
     },
     {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
+      "site_id": "zeli",
+      "site_name": "Zeli",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 79
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 5
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 35
+    },
+    {
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 0,
+      "raw_count": 1
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 9
+      "raw_count": 8
     },
     {
       "site_id": "aibreakfast",
@@ -106,69 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "fe28086e016e2311a56c2d23ad75c9bb76ce55b0",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Android Police",
-      "title": "I replaced my Pixel's built-in tools with this one sidebar app",
-      "url": "https://www.androidpolice.com/i-replaced-my-pixels-built-in-tools-with-this-one-sidebar-app",
-      "published_at": "2026-07-23T15:15:15Z",
-      "first_seen_at": "2026-07-24T02:45:57.345584Z",
-      "last_seen_at": "2026-07-24T02:45:57.345584Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "I replaced my Pixel's built-in tools with this one sidebar app",
-      "title_en": "I replaced my Pixel's built-in tools with this one sidebar app",
-      "title_zh": "我用这个侧边栏应用程序替换了 Pixel 的内置工具",
-      "title_bilingual": "我用这个侧边栏应用程序替换了 Pixel 的内置工具 / I replaced my Pixel's built-in tools with this one sidebar app"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "fe28086e016e2311a56c2d23ad75c9bb76ce55b0",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Android Police",
-      "title": "I replaced my Pixel's built-in tools with this one sidebar app",
-      "url": "https://www.androidpolice.com/i-replaced-my-pixels-built-in-tools-with-this-one-sidebar-app",
-      "published_at": "2026-07-23T15:15:15Z",
-      "first_seen_at": "2026-07-24T02:45:57.345584Z",
-      "last_seen_at": "2026-07-24T02:45:57.345584Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "sidebar",
-        "name": "Sidebar",
-        "patterns": [
-          "sidebar.io",
-          "Sidebar"
-        ],
-        "reason": "每日5个最佳设计链接，人工筛选",
-        "update_frequency": "daily",
-        "expected_items_per_day": 1,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "I replaced my Pixel's built-in tools with this one sidebar app",
-      "title_en": "I replaced my Pixel's built-in tools with this one sidebar app",
-      "title_zh": "我用这个侧边栏应用程序替换了 Pixel 的内置工具",
-      "title_bilingual": "我用这个侧边栏应用程序替换了 Pixel 的内置工具 / I replaced my Pixel's built-in tools with this one sidebar app"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }

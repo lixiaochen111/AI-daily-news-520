@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-29T02:43:48.810804Z",
+  "generated_at": "2026-07-30T02:29:20.570138Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 169,
-      "duration_ms": 2484,
+      "item_count": 172,
+      "duration_ms": 3916,
       "error": null
     },
     {
       "site_id": "aibreakfast",
       "site_name": "AI Breakfast",
-      "ok": true,
-      "item_count": 8,
-      "duration_ms": 189,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 397,
+      "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 30,
-      "duration_ms": 48,
+      "item_count": 23,
+      "duration_ms": 185,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 519,
+      "duration_ms": 324,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 419,
+      "duration_ms": 1212,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 384,
-      "duration_ms": 14319,
+      "item_count": 387,
+      "duration_ms": 17763,
       "error": null
     },
     {
@@ -54,15 +54,15 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 896,
+      "duration_ms": 862,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3041,
-      "duration_ms": 1970,
+      "item_count": 3040,
+      "duration_ms": 1377,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 78,
-      "duration_ms": 730,
+      "duration_ms": 1088,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 330,
+      "duration_ms": 359,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 928,
+      "duration_ms": 1583,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 825,
+      "duration_ms": 1581,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 123,
-      "duration_ms": 1178,
+      "item_count": 127,
+      "duration_ms": 1329,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 2,
       "item_count": 10,
-      "duration_ms": 24241,
+      "duration_ms": 25146,
       "error": "2 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -121,11 +121,13 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 14,
-  "failed_sites": [],
+  "successful_sites": 13,
+  "failed_sites": [
+    "aibreakfast"
+  ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5064,
-  "items_before_topic_filter": 2440,
+  "fetched_raw_items": 5058,
+  "items_before_topic_filter": 3654,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -134,28 +136,13 @@
     "effective_feed_total": 3,
     "ok_feeds": 1,
     "failed_feeds": [
-      "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-      "https://rsshub.pseudoyu.com/twitter/user/ryolu"
+      "https://rsshub.pseudoyu.com/twitter/user/ryolu",
+      "https://rsshub.pseudoyu.com/twitter/user/Gavmn"
     ],
     "zero_item_feeds": [],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
-      {
-        "site_id": "opmlrss:fa13b8925b",
-        "site_name": "OPML RSS",
-        "feed_title": "rsshub.pseudoyu.com",
-        "feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-        "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
-        "ok": false,
-        "item_count": 0,
-        "duration_ms": 12056,
-        "error": "HTTPSConnectionPool(host='rsshub.pseudoyu.com', port=443): Read timed out. (read timeout=12)",
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
       {
         "site_id": "opmlrss:822dc26cc6",
         "site_name": "OPML RSS",
@@ -164,7 +151,22 @@
         "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/ryolu",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 12063,
+        "duration_ms": 12498,
+        "error": "HTTPSConnectionPool(host='rsshub.pseudoyu.com', port=443): Read timed out. (read timeout=12)",
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:fa13b8925b",
+        "site_name": "OPML RSS",
+        "feed_title": "rsshub.pseudoyu.com",
+        "feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
+        "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
+        "ok": false,
+        "item_count": 0,
+        "duration_ms": 12499,
         "error": "HTTPSConnectionPool(host='rsshub.pseudoyu.com', port=443): Read timed out. (read timeout=12)",
         "skipped": false,
         "skip_reason": null,
@@ -179,7 +181,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 122,
+        "duration_ms": 149,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -208,6 +210,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-07-29"
+    "generated_date_utc": "2026-07-30"
   }
 }

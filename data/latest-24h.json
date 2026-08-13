@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-08-12T02:01:32.364180Z",
+  "generated_at": "2026-08-13T02:03:44.434558Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 2509,
-  "total_items_all_mode": 2306,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 2406,
+  "total_items_all_mode": 2206,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
-    "tier_0": 0,
+    "total": 1,
+    "tier_0": 1,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2318,
-    "items_after_filter": 0,
+    "items_before_filter": 2214,
+    "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 55145,
+  "archive_total": 55037,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 1,
   "site_stats": [
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 1,
+      "raw_count": 241
+    },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 76
-    },
-    {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 0,
-      "raw_count": 261
+      "raw_count": 73
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1201
+      "raw_count": 1124
     },
     {
       "site_id": "aibase",
@@ -46,22 +46,22 @@
       "raw_count": 20
     },
     {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 254
+    },
+    {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 587
+      "raw_count": 588
     },
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
+      "site_id": "aihot",
+      "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 238
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 10
+      "raw_count": 11
     },
     {
       "site_id": "zeli",
@@ -70,22 +70,22 @@
       "raw_count": 80
     },
     {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 21
-    },
-    {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 10
+      "raw_count": 7
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 5
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 3
     },
     {
       "site_id": "aibreakfast",
@@ -106,7 +106,69 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "2d2e66f014cb78d49bba97995c00188321cde29e",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Engadget",
+      "title": "Claude Cowork can now run in a Chrome sidebar",
+      "url": "https://www.engadget.com/2235919/claude-cowork-can-now-run-in-a-chrome-sidebar",
+      "published_at": "2026-08-12T22:19:29Z",
+      "first_seen_at": "2026-08-13T02:03:44.434558Z",
+      "last_seen_at": "2026-08-13T02:03:44.434558Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Claude Cowork can now run in a Chrome sidebar",
+      "title_en": "Claude Cowork can now run in a Chrome sidebar",
+      "title_zh": "Claude Cowork 现在可以在 Chrome 侧边栏中运行",
+      "title_bilingual": "Claude Cowork 现在可以在 Chrome 侧边栏中运行 / Claude Cowork can now run in a Chrome sidebar"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "2d2e66f014cb78d49bba97995c00188321cde29e",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Engadget",
+      "title": "Claude Cowork can now run in a Chrome sidebar",
+      "url": "https://www.engadget.com/2235919/claude-cowork-can-now-run-in-a-chrome-sidebar",
+      "published_at": "2026-08-12T22:19:29Z",
+      "first_seen_at": "2026-08-13T02:03:44.434558Z",
+      "last_seen_at": "2026-08-13T02:03:44.434558Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Claude Cowork can now run in a Chrome sidebar",
+      "title_en": "Claude Cowork can now run in a Chrome sidebar",
+      "title_zh": "Claude Cowork 现在可以在 Chrome 侧边栏中运行",
+      "title_bilingual": "Claude Cowork 现在可以在 Chrome 侧边栏中运行 / Claude Cowork can now run in a Chrome sidebar"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }

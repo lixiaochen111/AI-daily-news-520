@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-18T03:28:45.929877Z",
+  "generated_at": "2026-10-19T03:39:52.492784Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 212,
-      "duration_ms": 2651,
+      "item_count": 206,
+      "duration_ms": 3549,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 286,
+      "duration_ms": 280,
       "error": null
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 38,
-      "duration_ms": 168,
+      "item_count": 16,
+      "duration_ms": 237,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 518,
+      "duration_ms": 345,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 402,
+      "duration_ms": 392,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 308,
-      "duration_ms": 19195,
+      "item_count": 368,
+      "duration_ms": 19173,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 934,
+      "duration_ms": 739,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3010,
-      "duration_ms": 1733,
+      "item_count": 3021,
+      "duration_ms": 1347,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 50,
-      "duration_ms": 735,
+      "item_count": 61,
+      "duration_ms": 838,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5540,
+      "duration_ms": 5340,
       "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 13937,
+      "duration_ms": 1143,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 51,
-      "duration_ms": 7177,
+      "duration_ms": 949,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 123,
-      "duration_ms": 1259,
+      "duration_ms": 1729,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 2,
       "item_count": 10,
-      "duration_ms": 233,
+      "duration_ms": 312,
       "error": "2 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -126,8 +126,8 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 4981,
-  "items_before_topic_filter": 1841,
+  "fetched_raw_items": 5035,
+  "items_before_topic_filter": 1997,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -151,7 +151,7 @@
         "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/ryolu",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 47,
+        "duration_ms": 71,
         "error": "HTTPSConnectionPool(host='rsshub.pseudoyu.com', port=443): Max retries exceeded with url: /twitter/user/ryolu (Caused by NameResolutionError(\"HTTPSConnection(host='rsshub.pseudoyu.com', port=443): Failed to resolve 'rsshub.pseudoyu.com' ([Errno -5] No address associated with hostname)\"))",
         "skipped": false,
         "skip_reason": null,
@@ -166,7 +166,7 @@
         "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/Gavmn",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 46,
+        "duration_ms": 71,
         "error": "HTTPSConnectionPool(host='rsshub.pseudoyu.com', port=443): Max retries exceeded with url: /twitter/user/Gavmn (Caused by NameResolutionError(\"HTTPSConnection(host='rsshub.pseudoyu.com', port=443): Failed to resolve 'rsshub.pseudoyu.com' ([Errno -5] No address associated with hostname)\"))",
         "skipped": false,
         "skip_reason": null,
@@ -181,7 +181,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 140,
+        "duration_ms": 170,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -210,6 +210,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-10-18"
+    "generated_date_utc": "2026-10-19"
   }
 }

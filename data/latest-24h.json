@@ -1,79 +1,79 @@
 {
-  "generated_at": "2026-11-19T06:21:35.499240Z",
+  "generated_at": "2026-11-20T06:06:16.014100Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 2355,
-  "total_items_all_mode": 2154,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 3394,
+  "total_items_all_mode": 3067,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
-    "tier_0": 0,
+    "total": 1,
+    "tier_0": 1,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2153,
-    "items_after_filter": 0,
+    "items_before_filter": 2084,
+    "items_after_filter": 1,
     "filter_pass_rate": "0.0%"
   },
-  "archive_total": 50254,
+  "archive_total": 50684,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 1,
   "site_stats": [
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 1,
+      "raw_count": 226
+    },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 65
+      "raw_count": 80
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1068
+      "raw_count": 2082
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 20
+      "raw_count": 38
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 284
+      "raw_count": 266
     },
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
       "count": 0,
-      "raw_count": 559
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 237
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 20
+      "raw_count": 590
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 77
+      "raw_count": 73
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 19
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 15
+      "raw_count": 8
     },
     {
       "site_id": "opmlrss",
@@ -82,14 +82,14 @@
       "raw_count": 10
     },
     {
-      "site_id": "aibreakfast",
-      "site_name": "AI Breakfast",
-      "count": 0,
-      "raw_count": 0
-    },
-    {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
+      "count": 0,
+      "raw_count": 2
+    },
+    {
+      "site_id": "aibreakfast",
+      "site_name": "AI Breakfast",
       "count": 0,
       "raw_count": 0
     },
@@ -106,7 +106,69 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "0597658f3855f932589fbf26f4b622ecfd48894c",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Android Police",
+      "title": "Google's homepage now has a sidebar for your AI searches",
+      "url": "https://www.androidpolice.com/the-google-homepage-gets-its-biggest-change-in-years",
+      "published_at": "2026-11-20T00:49:52Z",
+      "first_seen_at": "2026-11-20T06:06:16.014100Z",
+      "last_seen_at": "2026-11-20T06:06:16.014100Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Google's homepage now has a sidebar for your AI searches",
+      "title_en": "Google's homepage now has a sidebar for your AI searches",
+      "title_zh": "谷歌主页现在有一个侧边栏供您进行人工智能搜索",
+      "title_bilingual": "谷歌主页现在有一个侧边栏供您进行人工智能搜索 / Google's homepage now has a sidebar for your AI searches"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "0597658f3855f932589fbf26f4b622ecfd48894c",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "Android Police",
+      "title": "Google's homepage now has a sidebar for your AI searches",
+      "url": "https://www.androidpolice.com/the-google-homepage-gets-its-biggest-change-in-years",
+      "published_at": "2026-11-20T00:49:52Z",
+      "first_seen_at": "2026-11-20T06:06:16.014100Z",
+      "last_seen_at": "2026-11-20T06:06:16.014100Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Google's homepage now has a sidebar for your AI searches",
+      "title_en": "Google's homepage now has a sidebar for your AI searches",
+      "title_zh": "谷歌主页现在有一个侧边栏供您进行人工智能搜索",
+      "title_bilingual": "谷歌主页现在有一个侧边栏供您进行人工智能搜索 / Google's homepage now has a sidebar for your AI searches"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
